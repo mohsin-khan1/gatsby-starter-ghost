@@ -16,7 +16,7 @@ import { MetaData } from '../components/common/meta'
 const Index = ({ data, location, pageContext }) => {
     const posts = data.allGhostPost.edges
 
-    return (
+  /*   return (
         <>
             <MetaData location={location} />
             <Layout isHome={true}>
@@ -31,7 +31,34 @@ const Index = ({ data, location, pageContext }) => {
                 </div>
             </Layout>
         </>
+    ) */
+
+    return (
+        <>
+            <MetaData
+                data={data}
+                location={location}
+                type="website"
+            />
+            <Helmet>
+                <style type="text/css">{`${page.codeinjection_styles}`}</style>
+            </Helmet>
+            <Layout>
+                <div className="container">
+                    <article className="content">
+                        {/* <h1 className="content-title">{page.title}</h1> */}
+
+                        {/* The main page content */}
+                        <section
+                            className="content-body load-external-scripts"
+                            dangerouslySetInnerHTML={{ __html: page.html }}
+                        />
+                    </article>
+                </div>
+            </Layout>
+        </>
     )
+
 }
 
 Index.propTypes = {
