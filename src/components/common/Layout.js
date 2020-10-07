@@ -147,7 +147,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
 
 
-                  {/*   <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
+                   {/* <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
@@ -172,7 +172,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 null}
                             <nav className="site-nav">
                                 <div className="site-nav-left">
-                                    {/* The navigation items as setup in Ghost */}
+
                                     <Navigation data={site.navigation} navClass="site-nav-item" />
                                 </div>
                                 <div className="site-nav-right">
@@ -180,7 +180,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 </div>
                             </nav>
                         </div>
-                    </header> */}
+                            </header>  */}
 
                     <main className="site-main">
                         {/* All the main content gets inserted here, index.js, post.js */}
