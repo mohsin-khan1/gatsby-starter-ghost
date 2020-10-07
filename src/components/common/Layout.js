@@ -47,7 +47,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     </div>
 
     <a href="/" aria-current="page" class="c-nav__logo w-nav-brand _w--current">
-      <img src="imagesdocuwalk-logo.svg" alt="DocuWalk" class="image" />
+      <img src="{site.logo}" alt="{site.title}" class="image" />
     </a>
 
     <nav role="navigation" class="c-nav__menu w-nav-menu">
@@ -147,7 +147,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
 
 
-                    <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
+                  {/*   <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
                         <div className="container">
                             <div className="site-mast">
                                 <div className="site-mast-left">
@@ -180,7 +180,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 </div>
                             </nav>
                         </div>
-                    </header>
+                    </header> */}
 
                     <main className="site-main">
                         {/* All the main content gets inserted here, index.js, post.js */}
