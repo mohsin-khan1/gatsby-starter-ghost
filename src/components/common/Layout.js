@@ -47,7 +47,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     </div>
 
     <a href="/" aria-current="page" class="c-nav__logo w-nav-brand _w--current">
-      <img src="{site.logo}" alt="{site.title}" class="image" />
+      <img src={site.logo} alt={site.title} class="image" />
     </a>
 
     <nav role="navigation" class="c-nav__menu w-nav-menu">
