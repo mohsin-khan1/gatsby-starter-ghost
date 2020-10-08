@@ -192,11 +192,11 @@ exports.createPages = async ({ graphql, actions }) => {
         itemsPerPage: postsPerPage,
         component: indexTemplate,
         pathPrefix: ({ pageNumber }) => {
-            /* if (pageNumber === 0) {
+            if (pageNumber === 0) {
                 return `/`
-            } else { */
+            } else {
                 return `/page`
-            //}
+            }
         },
     })
 }
