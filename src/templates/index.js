@@ -16,7 +16,7 @@ import config from '../utils/siteConfig'
 */
 const Index = ({ data, location, pageContext }) => {
     //const posts = data.allGhostPost.edges
-    const page = data.ghostPage
+   // const page = data.ghostPage
 
     return (
         <>
