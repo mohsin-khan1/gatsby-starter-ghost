@@ -1,6 +1,9 @@
 import React, {Component} from 'react';
 
 class Header extends Component {
+  constructor(){
+    super(props)
+  }
   render(){
     return(
       <header class="l-header">
@@ -12,7 +15,7 @@ class Header extends Component {
       </div>
 
       <a href="/" aria-current="page" class="c-nav__logo w-nav-brand _w--current">
-        <img src={site.logo} alt={site.title} class="image" />
+        <img src={this.props.site.logo} alt={this.props.site.title} class="image" />
       </a>
 
       <nav role="navigation" class="c-nav__menu w-nav-menu">
