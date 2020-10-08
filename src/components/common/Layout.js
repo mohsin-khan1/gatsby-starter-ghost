@@ -31,7 +31,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <Helmet>
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
-                <script type="text/javascript" async defer src="/bundle.js"></script>
+                {/* <script type="text/javascript" async defer src="/bundle.js"></script> */}
                 <body className={bodyClass} />
             </Helmet>
 
