@@ -11,7 +11,6 @@ import config from '../../utils/siteConfig'
 //import '../../styles/app.css'
 import '../../styles/styles-wf.css'
 import '../../styles/styles.css'
-import '../../styles/bundle.js'
 
 
 /**
@@ -32,6 +31,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <Helmet>
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
+                <script type="text/javascript" async defer src="/bundle.js"></script>
                 <body className={bodyClass} />
             </Helmet>
 
