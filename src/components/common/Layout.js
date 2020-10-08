@@ -42,8 +42,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
               <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
                 <div class="h-container c-nav__inner">
                   <div class="c-nav__hamburger-button w-nav-button">
-                    <img src="{config.siteUr}/images/hamburger.svg" alt="" class="h-svg-icon c-nav__icon--hamburger" />
-                    <img src="{config.siteUr}/images/times.svg" alt="" class="h-svg-icon c-nav__icon--times" />
+                    <img src={config.siteUr}"/images/hamburger.svg" alt="" class="h-svg-icon c-nav__icon--hamburger" />
+                    <img src={config.siteUr}"/images/times.svg" alt="" class="h-svg-icon c-nav__icon--times" />
                   </div>
 
                   <a href="/" aria-current="page" class="c-nav__logo w-nav-brand _w--current">
@@ -194,7 +194,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                           <div class="c-footer-contacts__row">
                             <div class="c-footer-contacts__brand">
                               <a href="#" class="c-footer-contacts__brand-link w-inline-block">
-                                <img src="{config.siteUr}/images/docuwalk-logo.svg" alt="" class="image" />
+                                <img src='${config.siteUr}/images/docuwalk-logo.svg' alt="" class="image" />
                               </a>
                             </div>
                           </div>
@@ -376,16 +376,16 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                     <nav class="c-footer__social">
                       <a href="//www.facebook.com/DocuWalk-103887751350709/" target="_blank" class="c-footer__social-link w-inline-block">
-                        <img src="{config.siteUr}/images/social-facebook_color.svg" alt="" class="h-svg-icon" />
+                        <img src={config.siteUr}"/images/social-facebook_color.svg" alt="" class="h-svg-icon" />
                       </a>
                       <a href="//twitter.com/docuwalk" target="_blank" class="c-footer__social-link w-inline-block">
-                        <img src="{config.siteUr}/images/social-twitter_color.svg" alt="" class="h-svg-icon" />
+                        <img src={config.siteUr}"/images/social-twitter_color.svg" alt="" class="h-svg-icon" />
                       </a>
                       <a href="//www.instagram.com/docuwalk" target="_blank" class="c-footer__social-link w-inline-block">
-                        <img src="{config.siteUr}/images/social-instagram_color.svg" alt="" class="h-svg-icon" />
+                        <img src={config.siteUr}"/images/social-instagram_color.svg" alt="" class="h-svg-icon" />
                       </a>
                       <a href="//www.linkedin.com/company/docuwalk" target="_blank" class="c-footer__social-link w-inline-block">
-                        <img src="{config.siteUr}/images/social-linkedin_color.svg" alt="" class="h-svg-icon" />
+                        <img src={config.siteUr}"/images/social-linkedin_color.svg" alt="" class="h-svg-icon" />
                       </a>
                     </nav>
                     </div>
