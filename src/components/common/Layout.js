@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import Header from 'header.js'
+import Header from './header'
 
 import { Navigation } from '.'
 import config from '../../utils/siteConfig'
@@ -40,7 +40,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
 
-                    <Header></Header>
+                    <Header/>
 
                    {/* <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
                         <div className="container">
