@@ -5,6 +5,7 @@ class Header extends Component {
     super(props)
   }
   render(){
+    console.log(this.props)
     return(
       <header class="l-header">
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
