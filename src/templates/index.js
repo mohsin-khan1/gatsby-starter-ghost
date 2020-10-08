@@ -15,6 +15,7 @@ import { MetaData } from '../components/common/meta'
 */
 const Index = ({ data, location, pageContext }) => {
     const posts = data.allGhostPost.edges
+    const page = data.ghostPage
    // const page = data.ghostPage
 
    return (
@@ -22,13 +23,17 @@ const Index = ({ data, location, pageContext }) => {
             <MetaData location={location} />
             <Layout isHome={true}>
                 <div className="container">
-                    <section className="post-feed">
+                    {/* <section className="post-feed">
                         {posts.map(({ node }) => (
                             // The tag below includes the markup for each post - components/common/PostCard.js
                             <PostCard key={node.id} post={node} />
                         ))}
-                    </section>
-                    <Pagination pageContext={pageContext} />
+                    </section> */}
+                     <section
+                            className="content-body load-external-scripts"
+                            dangerouslySetInnerHTML={{ __html: page.html }}
+                        />
+               {/*      <Pagination pageContext={pageContext} /> */}
                 </div>
             </Layout>
         </>
