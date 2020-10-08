@@ -1,4 +1,9 @@
-<header class="l-header">
+import React, {Component} from 'reaxt';
+
+class Header extends Component {
+  render(){
+    return(
+      <header class="l-header">
   <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
     <div class="h-container c-nav__inner">
       <div class="c-nav__hamburger-button w-nav-button">
@@ -105,3 +110,8 @@
     </div>
   </div>
 </header>
+    )
+  }
+}
+
+export default Header;
