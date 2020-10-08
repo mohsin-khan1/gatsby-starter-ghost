@@ -42,7 +42,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
               <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
                 <div class="h-container c-nav__inner">
                   <div class="c-nav__hamburger-button w-nav-button">
-                    <img src='{config.siteUr}/images/hamburger.svg' alt="" class="h-svg-icon c-nav__icon--hamburger" />
+                    <img src="`${config.siteUr}`/images/hamburger.svg" alt="" class="h-svg-icon c-nav__icon--hamburger" />
                     <img src='{config.siteUr}"/images/times.svg' alt="" class="h-svg-icon c-nav__icon--times" />
                   </div>
 
