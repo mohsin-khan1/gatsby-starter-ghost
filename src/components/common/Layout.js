@@ -83,7 +83,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </main>
 
                 </div>
-
+{/*
             <footer class="c-footer">
               <div class="c-footer__body">
                 <div class="c-footer__body-inner h-container">
@@ -102,7 +102,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   {{> "footer/footer-social-block"}}
                 </div>
               </div>
-            </footer>
+            </footer> */}
 
                 <div className="viewport-bottom">
                     {/* The footer at the very bottom of the screen */}
