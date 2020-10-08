@@ -386,6 +386,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                       </a>
                       <a href="//www.linkedin.com/company/docuwalk" target="_blank" class="c-footer__social-link w-inline-block">
                         <img src="images/social-linkedin_color.svg" alt="" class="h-svg-icon" />
+                        {site.navigation}
+                        {site.navigation.home}
                       </a>
                     </nav>
                     </div>
