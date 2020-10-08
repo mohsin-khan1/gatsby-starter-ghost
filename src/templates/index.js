@@ -22,7 +22,7 @@ const Index = ({ data, location, pageContext }) => {
         <>
             <MetaData location={location} />
             <Layout isHome={true}>
-               {/*  <div className="container">
+                <div className="container">
                     <section className="post-feed">
                         {posts.map(({ node }) => (
                             // The tag below includes the markup for each post - components/common/PostCard.js
@@ -30,8 +30,8 @@ const Index = ({ data, location, pageContext }) => {
                         ))}
                     </section>
                     <Pagination pageContext={pageContext} />
-                </div> */}
-                <main class="c-main">
+                </div>
+               {/*  <main class="c-main">
                     <div id="take-your-contracts" class="c-invitation-to-try">
                         <div class="c-invitation-to-try__inner h-container">
                         <div class="c-invitation-to-try__inner-2">
@@ -416,7 +416,7 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                     </div>
                     </main>
-            </Layout>
+ */}            </Layout>
         </>
     )
 
