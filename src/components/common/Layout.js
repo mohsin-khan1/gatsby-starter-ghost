@@ -11,6 +11,7 @@ import config from '../../utils/siteConfig'
 //import '../../styles/app.css'
 import '../../styles/styles-wf.css'
 import '../../styles/styles.css'
+import '../../styles/bundle.js'
 
 
 /**
