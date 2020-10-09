@@ -109,7 +109,7 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         <div class="c-get-started-home__ground"><img src={`${config.siteUrl}images/get-started-home-bg-ground.svg`} alt="" class="c-get-started-home__ground-image" /></div>
                     </div>
-                    <div class="c-learn-about-platform">
+{/*                     <div class="c-learn-about-platform">
                         <div class="c-learn-about-platform__inner h-container">
                         <div class="c-learn-about-platform__content">
                             <div class="c-learn-about-platform__header">
@@ -134,8 +134,8 @@ const Index = ({ data, location, pageContext }) => {
                             </div>
                         </div>
                         </div>
-                    </div>
-{/*                     <div class="c-time-saving">
+                    </div> */}
+                    <div class="c-time-saving">
                         <div class="c-time-saving__inner h-container">
                         <div id="w-node-fc963afe36a3-a351bd86" class="c-time-saving__header">
                             <h2 class="c-time-saving__title">Save time and focus on what matters - You and Your Business</h2>
@@ -240,8 +240,8 @@ const Index = ({ data, location, pageContext }) => {
                             </div>
                         </div>
                         </div>
-                    </div> */}
-{/*                     <div class="advantages">
+                    </div>
+                    <div class="advantages">
                         <div class="advantages__decor-rock"></div>
                         <div class="advantages__inner h-container">
                         <div class="advantages__inner-2">
@@ -293,8 +293,8 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         </div>
                         <div class="advantages__decor-water"></div>
-                    </div> */}
-                  {/*   <div class="c-chose-a-plan-home">
+                    </div>
+                   <div class="c-chose-a-plan-home">
                         <div class="c-chose-a-plan-home__inner h-container">
                         <div class="c-chose-a-plan-home__inner-2">
                             <div class="c-chose-a-plan-home__header">
@@ -356,8 +356,8 @@ const Index = ({ data, location, pageContext }) => {
                             <div class="c-chose-a-plan-home__bottom-text">Don’t just take our word for it, we’re trusted by some of the most trusted brands</div>
                         </div>
                         </div>
-                    </div> */}
-                   {/*  <div class="partners-and-customers">
+                    </div>
+                   <div class="partners-and-customers">
                         <div class="partners-and-customers__inner h-container">
                         <div class="partners-and-customers__item"><img src={`${config.siteUrl}images/seward-and-kissel-llp2x.png`} width="70" alt="" class="partners-and-customers__image" /></div>
                         <div class="partners-and-customers__item"><img src={`${config.siteUrl}images/berkshirehathaway2x.png`} width="70" alt="" class="partners-and-customers__image" /></div>
@@ -368,8 +368,8 @@ const Index = ({ data, location, pageContext }) => {
                         <div class="partners-and-customers__item"><img src={`${config.siteUrl}images/century212x.png`} width="70" alt="" class="partners-and-customers__image" /></div>
                         <div class="partners-and-customers__item"><img src={`${config.siteUrl}images/rismedia2x.png`} width="70" alt="" class="partners-and-customers__image" /></div>
                         </div>
-                    </div> */}
-{/*                     <div class="c-right-path">
+                    </div>
+                    <div class="c-right-path">
                         <div class="c-right-path__inner h-container">
                         <div class="c-right-path__inner-2 h-container">
                             <div class="c-right-path__header">
@@ -410,7 +410,7 @@ const Index = ({ data, location, pageContext }) => {
                             </div>
                         </div>
                         </div>
-                    </div> */}
+                    </div>
                     </main>
                     </section>
                    {/*  <Pagination pageContext={pageContext} /> */}
