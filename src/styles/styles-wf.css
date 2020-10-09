@@ -2420,7 +2420,7 @@ textarea.w-select {
 }
 
 body {
-    font-family: 'DM Sans';
+   /*  font-family: 'DM Sans'; */
     color: #000;
     font-size: 16px;
     line-height: 20px;
