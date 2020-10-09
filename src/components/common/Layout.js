@@ -37,7 +37,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <div className="viewport">
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
-
+              <header class="l-header">
               <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
                 <div class="h-container c-nav__inner">
                   <div class="c-nav__hamburger-button w-nav-button">
@@ -143,6 +143,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   </div>
                 </div>
               </div>
+              </header>
                    {/* <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
                         <div className="container">
                             <div className="site-mast">
