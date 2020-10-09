@@ -124,15 +124,14 @@ const Index = ({ data, location, pageContext }) => {
                             </div>
                             <div class="c-learn-about-platform__media">
                                 <div class="c-learn-about-platform__movie-wrap">
-                                    {/* <div style="padding-top: 56.17021276595745%;" id="w-node-573f8a56698d-a351bd86" class="w-embed-youtubevideo youtube"> */}
-                                    <iframe
-                                    src="//www.youtube.com/embed/BHQi2U7xlco?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                                    frameborder="0"
-                                    style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: auto;"
-                                    allow="autoplay; encrypted-media"
-                                    allowfullscreen=""
-                                    ></iframe>
-                                    {/* </div> */}
+                                    <div id="w-node-573f8a56698d-a351bd86" class="w-embed-youtubevideo youtube">
+                                        <iframe
+                                        src="//www.youtube.com/embed/BHQi2U7xlco?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                                        frameborder="0"
+                                        allow="autoplay; encrypted-media"
+                                        allowfullscreen=""
+                                        ></iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
