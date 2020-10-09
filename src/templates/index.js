@@ -27,7 +27,11 @@ const Index = ({ data, location, pageContext }) => {
                             // The tag below includes the markup for each post - components/common/PostCard.js
                             <PostCard key={node.id} post={node} />
                         ))} */}
-                <main class="c-main">
+                        <div id="take-your-contracts" class="c-invitation-to-try">
+
+                            <h2>ertert ert ert ret er t</h2>
+                        </div>
+                {/* <main class="c-main">
                     <div id="take-your-contracts" class="c-invitation-to-try">
                         <div class="c-invitation-to-try__inner h-container">
                         <div class="c-invitation-to-try__inner-2">
@@ -411,9 +415,9 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         </div>
                     </div>
-                    </main>
+                    </main> */}
                     </section>
-                    <Pagination pageContext={pageContext} />
+                   {/*  <Pagination pageContext={pageContext} /> */}
                 </div>
             </Layout>
         </>
