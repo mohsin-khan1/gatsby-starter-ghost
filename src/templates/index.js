@@ -58,7 +58,7 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         </div>
                     </div>
-                   {/*  <div class="c-get-started-home">
+                   <div class="c-get-started-home">
                         <div class="c-get-started-home__inner h-container">
                         <div class="c-get-started-home__inner-2 h-container">
                             <div class="c-get-started-home__content temp">
@@ -108,7 +108,7 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         </div>
                         <div class="c-get-started-home__ground"><img src={`${config.siteUrl}images/get-started-home-bg-ground.svg`} alt="" class="c-get-started-home__ground-image" /></div>
-                    </div> */}
+                    </div>
 {/*                     <div class="c-learn-about-platform">
                         <div class="c-learn-about-platform__inner h-container">
                         <div class="c-learn-about-platform__content">
