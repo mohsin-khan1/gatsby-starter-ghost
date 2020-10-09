@@ -34,7 +34,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
                 <body className={bodyClass} />
             </Helmet>
-            <script src="../../styles/bundle.js"></script>
+            <script src="../static/bundle.js"></script>
 
 
             <div className="viewport">
