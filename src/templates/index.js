@@ -109,32 +109,34 @@ const Index = ({ data, location, pageContext }) => {
                         </div>
                         <div class="c-get-started-home__ground"><img src={`${config.siteUrl}images/get-started-home-bg-ground.svg`} alt="" class="c-get-started-home__ground-image" /></div>
                     </div>
-{/*                     <div class="c-learn-about-platform">
+                    <div class="c-learn-about-platform">
                         <div class="c-learn-about-platform__inner h-container">
-                        <div class="c-learn-about-platform__content">
-                            <div class="c-learn-about-platform__header">
-                            <h2 class="c-learn-about-platform__title">Learn what makes our platform a must-have for business and personal use.</h2>
+                            <div class="c-learn-about-platform__content">
+                                <div class="c-learn-about-platform__header">
+                                    <h2 class="c-learn-about-platform__title">Learn what makes our platform a must-have for business and personal use.</h2>
+                                </div>
+                                <div class="c-learn-about-platform__text">
+                                    <div>Watch our one-minute introduction to DocuWalk.</div>
+                                </div>
+                                <div class="c-learn-about-platform__controls h-temp">
+                                    <a href="#" class="c-learn-about-platform__button c-button c-button--dark-blue c-button--thin-out w-button">Watch now</a>
+                                </div>
                             </div>
-                            <div class="c-learn-about-platform__text">
-                            <div>Watch our one-minute introduction to DocuWalk.</div>
-                            </div>
-                            <div class="c-learn-about-platform__controls h-temp"><a href="#" class="c-learn-about-platform__button c-button c-button--dark-blue c-button--thin-out w-button">Watch now</a></div>
-                        </div>
                         <div class="c-learn-about-platform__media">
                             <div class="c-learn-about-platform__movie-wrap">
-                            <div style="padding-top: 56.17021276595745%;" id="w-node-573f8a56698d-a351bd86" class="w-embed-youtubevideo youtube">
-                                <iframe
-                                src="//www.youtube.com/embed/BHQi2U7xlco?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
-                                frameborder="0"
-                                style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: auto;"
-                                allow="autoplay; encrypted-media"
-                                allowfullscreen=""
-                                ></iframe>
-                            </div>
+                                <div style="padding-top: 56.17021276595745%;" id="w-node-573f8a56698d-a351bd86" class="w-embed-youtubevideo youtube">
+                                    {/* <iframe
+                                    src="//www.youtube.com/embed/BHQi2U7xlco?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
+                                    frameborder="0"
+                                    style="position: absolute; left: 0; top: 0; width: 100%; height: 100%; pointer-events: auto;"
+                                    allow="autoplay; encrypted-media"
+                                    allowfullscreen=""
+                                    ></iframe> */}
+                                </div>
                             </div>
                         </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div class="c-time-saving">
                         <div class="c-time-saving__inner h-container">
                         <div id="w-node-fc963afe36a3-a351bd86" class="c-time-saving__header">
