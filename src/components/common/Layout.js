@@ -11,8 +11,6 @@ import config from '../../utils/siteConfig'
 //import '../../styles/app.css'
 import '../../styles/styles-wf.css'
 import '../../styles/styles.css'
-//import '../../styles/bundle.js'
-
 
 /**
 * Main layout component
@@ -36,9 +34,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             </Helmet>
             <script src="../bundle.js"></script>
 
-
             <div className="viewport">
-
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
 
@@ -201,15 +197,14 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                               </a>
                             </div>
                           </div>
-                                  <div class="c-footer-contacts__row">
-                                    <p class="c-footer-contacts__address">
-                                      14 Wall Street, 20th Floor, <br/>
-                                      NY, New York, 10005 <br/>
-                                    </p>
-                                  </div>
+                            <div class="c-footer-contacts__row">
+                              <p class="c-footer-contacts__address">
+                                14 Wall Street, 20th Floor, <br/>
+                                NY, New York, 10005 <br/>
+                              </p>
+                            </div>
                         </div>
                       </div>
-
 
                       <nav class="c-footer__nav">
                         <div class="c-footer__nav-section">
