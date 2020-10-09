@@ -11,7 +11,7 @@ import config from '../../utils/siteConfig'
 //import '../../styles/app.css'
 import '../../styles/styles-wf.css'
 import '../../styles/styles.css'
-import '../../styles/bundle.js'
+//import '../../styles/bundle.js'
 
 
 /**
@@ -34,6 +34,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
                 <body className={bodyClass} />
             </Helmet>
+            <script src="../../styles/bundle.js"></script>
+
 
             <div className="viewport">
 
