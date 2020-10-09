@@ -111,17 +111,17 @@ const Index = ({ data, location, pageContext }) => {
                     </div>
                     <div class="c-learn-about-platform">
                         <div class="c-learn-about-platform__inner h-container">
-                        {/* <div class="c-learn-about-platform__content">
-                            <div class="c-learn-about-platform__header">
-                                <h2 class="c-learn-about-platform__title">Learn what makes our platform a must-have for business and personal use.</h2>
+                            <div class="c-learn-about-platform__content">
+                                <div class="c-learn-about-platform__header">
+                                    <h2 class="c-learn-about-platform__title">Learn what makes our platform a must-have for business and personal use.</h2>
+                                </div>
+                                <div class="c-learn-about-platform__text">
+                                    <div>Watch our one-minute introduction to DocuWalk.</div>
+                                </div>
+                                <div class="c-learn-about-platform__controls h-temp">
+                                    <a href="#" class="c-learn-about-platform__button c-button c-button--dark-blue c-button--thin-out w-button">Watch now</a>
+                                </div>
                             </div>
-                            <div class="c-learn-about-platform__text">
-                                <div>Watch our one-minute introduction to DocuWalk.</div>
-                            </div>
-                            <div class="c-learn-about-platform__controls h-temp">
-                                <a href="#" class="c-learn-about-platform__button c-button c-button--dark-blue c-button--thin-out w-button">Watch now</a>
-                            </div>
-                        </div> */}
                         {/*     <div class="c-learn-about-platform__media">
                                 <div class="c-learn-about-platform__movie-wrap">
                                     <div style="padding-top: 56.17021276595745%;" id="w-node-573f8a56698d-a351bd86" class="w-embed-youtubevideo youtube">
