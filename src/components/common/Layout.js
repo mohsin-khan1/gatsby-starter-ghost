@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
-import { Link, StaticQuery, graphql, withPrefix } from 'gatsby'
+import { withPrefix, Link, StaticQuery, graphql, withPrefix } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Navigation } from '.'
