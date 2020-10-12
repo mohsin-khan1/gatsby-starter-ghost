@@ -62,7 +62,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                           Industries
                         </a>
                       </div>
-                      <nav class="c-nav__dropdown-list w-dropdown-list">
+                      <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
                         <a href="/industries-small-business" class="c-nav__dropdown-item w-dropdown-link">
                           Small Business
                         </a>
@@ -88,7 +88,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                           Resources
                         </a>
                       </div>
-                      <nav class="c-nav__dropdown-list w-dropdown-list">
+                      <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1">
                         <a href="/faq" class="c-nav__dropdown-item w-dropdown-link">
                           FAQ
                         </a>
@@ -115,7 +115,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                           Company
                         </a>
                       </div>
-                      <nav class="c-nav__dropdown-list w-dropdown-list">
+                      <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
                         <a href="/about-us" class="c-nav__dropdown-item w-dropdown-link">
                           About Us
                         </a>
