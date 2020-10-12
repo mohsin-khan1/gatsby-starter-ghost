@@ -22,9 +22,9 @@ const Page = ({ data, location }) => {
                 location={location}
                 type="website"
             />
-            <Helmet>
+           {/*  <Helmet>
                 <style type="text/css">{`${page.codeinjection_styles}`}</style>
-            </Helmet>
+            </Helmet> */}
             <Layout>
                 <div className="container">
                     <article className="content">
