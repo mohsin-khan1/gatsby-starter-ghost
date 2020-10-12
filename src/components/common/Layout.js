@@ -30,7 +30,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <Helmet>
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
-                <body className={bodyClass} />
+                <body className={`${bodyClass} "className" `}  />
             </Helmet>
             <div className="viewport l-app">
                 <div className="viewport-top">
