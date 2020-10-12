@@ -442,7 +442,7 @@ const DefaultLayoutSettingsQuery = props => (
                 }
             }
         `}
-        render={data => <DefaultLayout data={data} {...props} />}
+        render={data => {<React.Fragment><script src="../bundle.js"/> <DefaultLayout data={data} {...props} /></React.Fragment>}}
     />
 )
 
