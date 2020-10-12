@@ -10,7 +10,7 @@ import config from '../../utils/siteConfig'
 // Styles
 //import '../../styles/app.css'
 import '../../styles/styles-wf.css'
-/* import '../../styles/styles.css' */
+import '../../styles/styles.css'
 
 /**
 * Main layout component
