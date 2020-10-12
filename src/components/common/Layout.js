@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
-import { Link, StaticQuery, graphql, withPrefix } from 'gatsby'
+import { Link, StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Navigation } from '.'
@@ -30,9 +30,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <Helmet>
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
+                <script src="../bundle.js"></script>
                 <body className="l-body"  />
-                {/* <script src={withPrefix('./styles/bundle.js')} type="text/javascript"/> */}
-                <script src="./styles/bundle.js"></script>
+
             </Helmet>
             <div className="viewport l-app">
                 <div className="viewport-top">
