@@ -2419,12 +2419,12 @@ textarea.w-select {
     padding-bottom: 56.25%;
 }
 
-body {
-   /*  font-family: 'DM Sans'; */
+/* body {
+   font-family: 'DM Sans';
     color: #000;
     font-size: 16px;
     line-height: 20px;
-}
+} */
 
 h1 {
     margin-top: 20px;
