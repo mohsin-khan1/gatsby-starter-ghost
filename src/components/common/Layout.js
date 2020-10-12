@@ -57,7 +57,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </a>
 
                     <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
-                      <div class="c-nav__dropdown-toggle w-dropdown-toggle">
+                      <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">>
                         <a href="/industries" class="c-nav__menu-item w-nav-link">
                           Industries
                         </a>
@@ -83,7 +83,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </a>
 
                     <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
-                      <div class="c-nav__dropdown-toggle w-dropdown-toggle">
+                      <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">>
                         <a href="/resources" class="c-nav__menu-item w-nav-link">
                           Resources
                         </a>
@@ -110,7 +110,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                       </nav>
                     </div>
                     <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
-                      <div class="c-nav__dropdown-toggle w-dropdown-toggle">
+                      <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">>
                         <a href="/company" class="c-nav__menu-item w-nav-link">
                           Company
                         </a>
