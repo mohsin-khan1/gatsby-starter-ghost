@@ -30,7 +30,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <Helmet>
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
-                <script src="../bundle.js"></script>
                 <body className={bodyClass} />
             </Helmet>
             <div className="viewport">
@@ -389,6 +388,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </div>
                   </div>
                 </footer>
+
+                <script src="../bundle.js"></script>
 
                 {/* <div className="viewport-bottom">
                     <footer className="site-foot">
