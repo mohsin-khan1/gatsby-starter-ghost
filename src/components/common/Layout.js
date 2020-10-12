@@ -30,7 +30,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <Helmet>
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
-                <script src="../bundle.js"></script>
+               {/*  <script src="../bundle.js"></script> */}
                 <body className="l-body"  />
 
             </Helmet>
@@ -442,7 +442,8 @@ const DefaultLayoutSettingsQuery = props => (
                 }
             }
         `}
-        render={data => {<React.Fragment><script src="../bundle.js"/> <DefaultLayout data={data} {...props} /></React.Fragment>}}
+        //render={data => <DefaultLayout data={data} {...props} />}
+        render={data => <React.Fragment><script src="../bundle.js"/> <DefaultLayout data={data} {...props} /></React.Fragment>}
     />
 )
 
