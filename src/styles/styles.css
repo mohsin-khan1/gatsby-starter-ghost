@@ -124,7 +124,7 @@ b {
   [href^="tel"] {
     pointer-events: none; } }
 
-input,
+/* input,
 select,
 textarea {
   border: 0;
@@ -145,7 +145,7 @@ textarea {
   select:-webkit-autofill,
   textarea:-webkit-autofill {
     -webkit-animation-name: autofill;
-    -webkit-animation-fill-mode: both; }
+    -webkit-animation-fill-mode: both; } */
 
 @-webkit-keyframes autofill {
   to {
