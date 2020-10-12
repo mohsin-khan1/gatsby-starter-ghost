@@ -1190,12 +1190,10 @@ button,
   display: none;
   min-width: 100%; }
 
-/* #w-dropdown-list-0:hover, #w-dropdown-list-1:hover, #w-dropdown-list-2:hover {
-  display: block;
-} */
-#w-dropdown-toggle-1:hover  #w-dropdown-list-1 {
-  display: block !important;
+#w-dropdown-toggle-0:hover  #w-dropdown-list-0, #w-dropdown-toggle-1:hover  #w-dropdown-list-1, #w-dropdown-toggle-2:hover  #w-dropdown-list-2 {
+  display: block ;
 }
+
 .w-dropdown-list.w--open {
   display: block; }
 

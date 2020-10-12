@@ -61,7 +61,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         <a href="/industries" class="c-nav__menu-item w-nav-link">
                           Industries
                         </a>
-                      </div>
                       <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
                         <a href="/industries-small-business" class="c-nav__dropdown-item w-dropdown-link">
                           Small Business
@@ -76,6 +75,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                           Government
                         </a>
                       </nav>
+                      </div>
                     </div>
 
                     <a href="/pricing" class="c-nav__menu-item w-nav-link">
@@ -87,7 +87,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         <a href="/resources" class="c-nav__menu-item w-nav-link">
                           Resources
                         </a>
-                      </div>
                       <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1">
                         <a href="/faq" class="c-nav__dropdown-item w-dropdown-link">
                           FAQ
@@ -108,13 +107,14 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                           Terms and Conditions
                         </a>
                       </nav>
+                      </div>
                     </div>
                     <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
                       <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
                         <a href="/company" class="c-nav__menu-item w-nav-link">
                           Company
                         </a>
-                      </div>
+
                       <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
                         <a href="/about-us" class="c-nav__dropdown-item w-dropdown-link">
                           About Us
@@ -132,6 +132,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                           Careers
                         </a>
                       </nav>
+                      </div>
                     </div>
                   </nav>
 

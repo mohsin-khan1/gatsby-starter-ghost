@@ -10,9 +10,11 @@ html {
 body {
     margin: 0;
 }
-#w-dropdown-toggle-1:hover  #w-dropdown-list-1 {
-    display: block !important;
+
+#w-dropdown-toggle-0:hover  #w-dropdown-list-0, #w-dropdown-toggle-1:hover  #w-dropdown-list-1, #w-dropdown-toggle-2:hover  #w-dropdown-list-2 {
+    display: block ;
   }
+
 article,
 aside,
 details,
