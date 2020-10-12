@@ -10,7 +10,9 @@ html {
 body {
     margin: 0;
 }
-
+#w-dropdown-toggle-1:hover #w-dropdown-list-1 {
+    display: block !important;
+  }
 article,
 aside,
 details,
