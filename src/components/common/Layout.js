@@ -191,7 +191,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         <div class="c-footer-contacts">
                           <div class="c-footer-contacts__row">
                             <div class="c-footer-contacts__brand">
-                              <a href="#" class="c-footer-contacts__brand-link w-inline-block">
+                              <a href={`${config.siteUrl}`} class="c-footer-contacts__brand-link w-inline-block">
                                 <img src={`${config.siteUrl}images/docuwalk-logo.svg`} alt="" class="image" />
                               </a>
                             </div>
