@@ -2566,23 +2566,23 @@ a {
 /* @media screen and (max-width: 479px) {
   .l-body {}
 } */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .l-body {
         padding-top: 48px;
     }
 }
-
+ */
 /* @media screen and (max-width: 991px) {
   .l-body {}
 } */
 /* @media screen and (min-width: 1280px) {
   .l-body {}
 } */
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
     .l-body {
         padding-top: 64px;
     }
-}
+} */
 
 /* @media screen and (min-width: 1920px) {
   .l-body {}
