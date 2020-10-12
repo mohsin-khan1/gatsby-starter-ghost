@@ -9,7 +9,7 @@ exports.onRenderBody = ({ setHeadComponents , setPostBodyComponents }, pluginOpt
     const icons = pluginOptions.icons || defaultIcons
 
     setPostBodyComponents([
-        <script type="text/javascript" src={'../bundle.js'}  />
+        <script type="text/javascript" src={withPrefix('../bundle.js')}  />
       ]);
 
     // If icons were generated, also add a favicon link.
