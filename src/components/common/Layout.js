@@ -32,7 +32,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
                 <body className={bodyClass} />
             </Helmet>
-            <div className="viewport">
+            <div className="viewport l-app">
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
               <header class="l-header">
