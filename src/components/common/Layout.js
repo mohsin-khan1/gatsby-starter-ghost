@@ -30,10 +30,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <Helmet>
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
+                <script src="../bundle.js"></script>
                 <body className={bodyClass} />
             </Helmet>
-            <script src="../bundle.js"></script>
-
             <div className="viewport">
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
