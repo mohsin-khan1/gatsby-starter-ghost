@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Helmet } from 'react-helmet'
-import { Link, StaticQuery, graphql } from 'gatsby'
+import { Link, StaticQuery, graphql, withPrefix } from 'gatsby'
 import Img from 'gatsby-image'
 
 import { Navigation } from '.'
@@ -31,6 +31,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
                 <body className="l-body"  />
+                <script src={withPrefix('bundle.js')} type="text/javascript"/>
             </Helmet>
             <div className="viewport l-app">
                 <div className="viewport-top">
@@ -389,7 +390,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   </div>
                 </footer>
 
-                <script src="../bundle.js"></script>
+                {/* <script src="../bundle.js"></script> */}
 
                 {/* <div className="viewport-bottom">
                     <footer className="site-foot">
