@@ -31,7 +31,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
                 <body className="l-body"  />
-                <script src={withPrefix('./styles/bundle.js')} type="text/javascript"/>
+                {/* <script src={withPrefix('./styles/bundle.js')} type="text/javascript"/> */}
+                <script src="./styles/bundle.js"></script>
             </Helmet>
             <div className="viewport l-app">
                 <div className="viewport-top">
