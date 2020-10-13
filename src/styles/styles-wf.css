@@ -1614,6 +1614,10 @@ textarea.w-select {
     -webkit-overflow-scrolling: touch;
 }
 
+.c-get-started-home__form-button {
+    padding: 13px 24px 11px;
+}
+
 .w-lightbox-content {
     position: relative;
     height: 100vh;
