@@ -12088,6 +12088,135 @@ a {
     -ms-grid-row: 1;
     grid-row-start: 1;
 }
+.w-nav-overlay {
+    overflow-y: auto; }
+
+  .c-toggle {
+    display: inline-block;
+    position: relative;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+    margin-bottom: 0; }
+
+  .c-toggle__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+
+  .c-toggle__input {
+    opacity: 0;
+    width: 0;
+    height: 0; }
+
+  .c-toggle__left,
+  .c-toggle__right {
+    cursor: pointer;
+    /* position: absolute; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    color: #ffffff;
+    background-color: #5a867c;
+    padding: calc(2 / 20 * 1em) calc(18 / 20 * 1em);
+    width: calc(128 / 20 * 1em);
+    overflow: hidden;
+    border-radius: calc(32 / 20 * 1em); }
+
+  .c-toggle__left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+
+  .c-toggle__right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+
+  .c-toggle__input:checked + .c-toggle__left,
+  .c-toggle__input:not(:checked) + .c-toggle__left + .c-toggle__right {
+    background-color: #ffffff;
+    color: #2e4354; }
+
+  .c-toggle__input:checked + .c-toggle__left + .c-toggle__right,
+  .c-toggle__input:not(:checked) + .c-toggle__left {
+    background-color: #5a867c;
+    color: rgba(255, 255, 255, 0.8); }
+
+  .c-switch {
+    display: inline-block;
+    position: relative;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+    margin-bottom: 0; }
+    .c-switch__inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    .c-switch__input {
+      opacity: 0;
+      width: 0;
+      height: 0; }
+      .c-switch__input:checked:nth-of-type(1) ~ .c-switch__label:nth-of-type(1),
+      .c-switch__input:checked:nth-of-type(2) ~ .c-switch__label:nth-of-type(2),
+      .c-switch__input:checked:nth-of-type(3) ~ .c-switch__label:nth-of-type(3),
+      .c-switch__input:checked:nth-of-type(4) ~ .c-switch__label:nth-of-type(4),
+      .c-switch__input:checked:nth-of-type(5) ~ .c-switch__label:nth-of-type(5),
+      .c-switch__input [checked]:nth-of-type(1) ~ .c-switch__label:nth-of-type(1),
+      .c-switch__input [checked]:nth-of-type(2) ~ .c-switch__label:nth-of-type(2),
+      .c-switch__input [checked]:nth-of-type(3) ~ .c-switch__label:nth-of-type(3),
+      .c-switch__input [checked]:nth-of-type(4) ~ .c-switch__label:nth-of-type(4),
+      .c-switch__input [checked]:nth-of-type(5) ~ .c-switch__label:nth-of-type(5) {
+        background-color: #ffffff;
+        color: #2e4354; }
+    .c-switch__label {
+      cursor: pointer;
+      /* position: absolute; */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-transition: 0.2s;
+      transition: 0.2s;
+      color: #ffffff;
+      background-color: #5a867c;
+      padding: calc(2 / 20 * 1em) calc(18 / 20 * 1em);
+      width: calc(128 / 20 * 1em);
+      overflow: hidden;
+      background-color: #5a867c;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 0;
+      font-weight: 400; }
+      .c-switch__label:nth-of-type(1) {
+        border-top-left-radius: calc(32 / 20 * 1em);
+        border-bottom-left-radius: calc(32 / 20 * 1em); }
+      .c-switch__label:nth-last-of-type(1) {
+        border-top-right-radius: calc(32 / 20 * 1em);
+        border-bottom-right-radius: calc(32 / 20 * 1em); }
 
 @media screen and (min-width: 1440px) {
     #w-node-9452c8a7db6d-a351bd86 {
