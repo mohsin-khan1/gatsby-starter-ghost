@@ -186,7 +186,7 @@ button,
 
 /* .l-app
 -------------------------------------------------------------*/
-.l-app {
+/* .l-app {
   scroll-behavior: smooth;
   padding-top: 56px; }
   @media screen and (max-width: 767px) {
@@ -194,7 +194,7 @@ button,
       padding-top: 48px; } }
   @media screen and (min-width: 1440px) {
     .l-app {
-      padding-top: 64px; } }
+      padding-top: 64px; } } */
 
 /* .l-row
 -------------------------------------------------------------*/
