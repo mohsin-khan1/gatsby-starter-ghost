@@ -29,9 +29,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         <>
             <Helmet>
                 <html lang={site.lang} />
-               {/*  <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
-                 {/* <script src="../bundle.js"></script> */}
-                {/*  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' type="text/javascript" /> */}
+                {/* <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
+                {/* <script src="../bundle.js"></script> */}
                 {/*  <script src={withPrefix('../bundle.js')} type="text/javascript" /> */}
                 <body className="l-body"  />
 
@@ -445,8 +444,7 @@ const DefaultLayoutSettingsQuery = props => (
                 }
             }
         `}
-        //render={data => <DefaultLayout data={data} {...props} />}
-        render={data => <React.Fragment><script src="../bundle.js"/> <DefaultLayout data={data} {...props} /></React.Fragment>}
+        render={data => <DefaultLayout data={data} {...props} />}
     />
 )
 
