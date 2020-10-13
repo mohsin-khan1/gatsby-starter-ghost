@@ -3735,7 +3735,7 @@ a {
 }
 
 .c-plans__inner.h-container {
-    padding-top: 72px;
+    padding-top: 24px;
     padding-bottom: 32px;
 }
 
@@ -7605,7 +7605,7 @@ a {
     }
 
     .c-plans__inner.h-container {
-        padding-top: 96px;
+        padding-top: 32px;
     }
 
     .c-plan {
@@ -8522,7 +8522,7 @@ a {
     }
 
     .c-plans__inner.h-container {
-        padding-top: 128px;
+        padding-top: 56px;
         padding-bottom: 48px;
     }
 
