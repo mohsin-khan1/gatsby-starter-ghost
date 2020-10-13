@@ -393,7 +393,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   </div>
                 </footer>
 
-                {/* <script src="../bundle.js"></script> */}
+                 <script src="../bundle.js"></script>
 
                 {/* <div className="viewport-bottom">
                     <footer className="site-foot">
