@@ -124,7 +124,7 @@ const Index = ({ data, location, pageContext }) => {
                             </div>
                             <div class="c-learn-about-platform__media">
                                 <div class="c-learn-about-platform__movie-wrap">
-                                    <div id="w-node-573f8a56698d-a351bd86" class="w-embed-youtubevideo youtube ">
+                                    <div id="w-node-573f8a56698d-a351bd86" class="w-embed-youtubevideo youtube">
                                         <iframe
                                         src="//www.youtube.com/embed/BHQi2U7xlco?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
                                         frameborder="0"
