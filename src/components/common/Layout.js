@@ -146,6 +146,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </a>
                   </div>
                 </div>
+                <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="display: none;"></div>
               </div>
               </header>
                    {/* <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
