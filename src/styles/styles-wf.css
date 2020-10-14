@@ -7325,7 +7325,7 @@ a {
     }
 
     .c-small-business-features__inner-2 {
-        max-width: 1280px;
+        /* max-width: 1280px; */
         margin-right: auto;
         margin-left: auto;
     }
@@ -8080,9 +8080,9 @@ a {
         max-width: 1440px;
     }
 
-    .c-small-business-features__inner-2 {
+    /* .c-small-business-features__inner-2 {
         max-width: 1440px;
-    }
+    } */
 
     .c-small-bussiness-specific-highlight__inner-2 {
         max-width: 1440px;
@@ -9123,9 +9123,9 @@ a {
         max-width: 1920px;
     }
 
-    .c-small-business-features__inner-2 {
+    /* .c-small-business-features__inner-2 {
         max-width: 1920px;
-    }
+    } */
 
     .c-small-bussiness-specific-highlight__inner-2 {
         max-width: 1920px;
