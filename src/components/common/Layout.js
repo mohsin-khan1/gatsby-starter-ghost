@@ -37,10 +37,10 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
             </Helmet>
             <script src="https://netlify.docuwalk.com/bundle.js"></script>
-            <div className="viewport l-app">
+            <div className="viewport l-body__inner">
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
-              <header class="l-header">
+              <header class="c-header">
               <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
                 <div class="h-container c-nav__inner">
                   <div class="c-nav__hamburger-button w-nav-button">
@@ -146,7 +146,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </a>
                   </div>
                 </div>
-                <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
               </div>
               </header>
                    {/* <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
