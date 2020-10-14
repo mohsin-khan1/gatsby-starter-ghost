@@ -31,7 +31,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <html lang={site.lang} />
                 {/* <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
                 {/* <script src="../bundle.js"></script> */}
-                {/*  <script src={withPrefix('../bundle.js')} type="text/javascript" /> */}
+                 <script src={withPrefix('../bundle.js')} type="text/javascript" />
                 <body className="l-body"  />
 
             </Helmet>
@@ -461,7 +461,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   </div>
                 </footer>
 
-                 <script src="../bundle.js"></script>
+               {/*   <script src="../bundle.js"></script> */}
 
                 {/* <div className="viewport-bottom">
                     <footer className="site-foot">
