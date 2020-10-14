@@ -30,11 +30,13 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <Helmet>
                 <html lang={site.lang} />
                 {/* <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
-                <script src="../bundle.js"></script>
-                 <script src={withPrefix('/bundle.js')} type="text/javascript" />
+                {/* <script src="../bundle.js"></script> */}
+                {/*  <script src={withPrefix('../bundle.js')} type="text/javascript" /> */}
+                <script src="https://netlify.docuwalk.com/bundle.js"></script>
                 <body className="l-body"  />
 
             </Helmet>
+            <script src="https://netlify.docuwalk.com/bundle.js"></script>
             <div className="viewport l-app">
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
@@ -393,7 +395,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   </div>
                 </footer>
 
-                 {/* <script src="../bundle.js"></script> */}
+                {/*  <script src="../bundle.js"></script> */}
 
                 {/* <div className="viewport-bottom">
                     <footer className="site-foot">
