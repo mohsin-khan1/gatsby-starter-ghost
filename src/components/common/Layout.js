@@ -37,8 +37,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
             </Helmet>
 
-            <div className="viewport l-body__inner">
-                <div className="viewport-top">
+            <div className="l-body__inner">
                     {/* The main header section on top of the screen */}
               <header class="c-header">
               <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
@@ -187,8 +186,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         {/* All the main content gets inserted here, index.js, post.js */}
                         {children}
                     </main>
-
-                </div>
 
                 <footer class="c-footer">
                   <div class="c-footer__body">
