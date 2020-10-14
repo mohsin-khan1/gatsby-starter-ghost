@@ -36,7 +36,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <body className="l-body"  />
 
             </Helmet>
-            <script src="https://netlify.docuwalk.com/bundle.js"></script>
+
             <div className="viewport l-body__inner">
                 <div className="viewport-top">
                     {/* The main header section on top of the screen */}
@@ -396,6 +396,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 </footer>
 
                 {/*  <script src="../bundle.js"></script> */}
+
+                <script src="https://netlify.docuwalk.com/bundle.js"></script>
 
               {/*   <script src="https://netlify.docuwalk.com/bundle.js"></script> */}
 
