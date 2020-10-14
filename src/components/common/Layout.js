@@ -55,7 +55,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     <a href="/product" class="c-nav__menu-item w-nav-link">
                       Product
                     </a>
-
                     <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
                       <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
                         <a href="/industries" class="c-nav__menu-item w-nav-link">
@@ -77,11 +76,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                       </nav>
                       </div>
                     </div>
-
                     <a href="/pricing" class="c-nav__menu-item w-nav-link">
                       Pricing
                     </a>
-
                     <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
                       <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
                         <a href="/resources" class="c-nav__menu-item w-nav-link">
@@ -114,7 +111,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         <a href="/company" class="c-nav__menu-item w-nav-link">
                           Company
                         </a>
-
                       <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
                         <a href="/about-us" class="c-nav__dropdown-item w-dropdown-link">
                           About Us
@@ -135,7 +131,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                       </div>
                     </div>
                   </nav>
-
                   <div class="c-nav__buttons">
                     <a href="//app.docuwalk.com/login" class="c-nav__button c-nav__sign-in-button w-button">
                       Sign In
@@ -147,45 +142,10 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 </div>
               </div>
               </header>
-                   {/* <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
-                        <div className="container">
-                            <div className="site-mast">
-                                <div className="site-mast-left">
-                                    <Link to="/">
-                                        {site.logo ?
-                                            <img className="site-logo" src={site.logo} alt={site.title} />
-                                            : <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
-                                        }
-                                    </Link>
-                                </div>
-                                <div className="site-mast-right">
-                                    { site.twitter && <a href={ twitterUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/twitter.svg" alt="Twitter" /></a>}
-                                    { site.facebook && <a href={ facebookUrl } className="site-nav-item" target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/facebook.svg" alt="Facebook" /></a>}
-                                    <a className="site-nav-item" href={ `https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/` } target="_blank" rel="noopener noreferrer"><img className="site-nav-icon" src="/images/icons/rss.svg" alt="RSS Feed" /></a>
-                                </div>
-                            </div>
-                            { isHome ?
-                                <div className="site-banner">
-                                    <h1 className="site-banner-title">{site.title}</h1>
-                                    <p className="site-banner-desc">{site.description}</p>
-                                </div> :
-                                null}
-                            <nav className="site-nav">
-                                <div className="site-nav-left">
-
-                                    <Navigation data={site.navigation} navClass="site-nav-item" />
-                                </div>
-                                <div className="site-nav-right">
-                                    <Link className="site-nav-button" to="/about">About</Link>
-                                </div>
-                            </nav>
-                        </div>
-                            </header>  */}
-
-                    <main className="site-main c-main">
-                        {/* All the main content gets inserted here, index.js, post.js */}
-                        {children}
-                    </main>
+                  <main className="site-main c-main">
+                      {/* All the main content gets inserted here, index.js, post.js */}
+                      {children}
+                  </main>
 
                 <footer class="c-footer">
                   <div class="c-footer__body">
@@ -391,26 +351,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </div>
                   </div>
                 </footer>
-
-                {/*  <script src="../bundle.js"></script> */}
-
                 <script src="https://netlify.docuwalk.com/bundle.js"></script>
-
-              {/*   <script src="https://netlify.docuwalk.com/bundle.js"></script> */}
-
-                {/* <div className="viewport-bottom">
-                    <footer className="site-foot">
-                        <div className="site-foot-nav container">
-                            <div className="site-foot-nav-left">
-                                <Link to="/">{site.title}</Link> © 2019 &mdash; Published with <a className="site-foot-nav-item" href="https://ghost.org" target="_blank" rel="noopener noreferrer">Ghost</a>
-                            </div>
-                            <div className="site-foot-nav-right">
-                                <Navigation data={site.navigation} navClass="site-foot-nav-item" />
-                            </div>
-                        </div>
-                    </footer>
-
-                </div> */}
             </div>
 
         </>
