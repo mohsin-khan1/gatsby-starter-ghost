@@ -32,7 +32,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 {/* <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
                 {/* <script src="../bundle.js"></script> */}
                 {/*  <script src={withPrefix('../bundle.js')} type="text/javascript" /> */}
-                <script src="https://netlify.docuwalk.com/bundle.js"></script>
+                {/* <script src="https://netlify.docuwalk.com/bundle.js"></script> */}
                 <body className="l-body"  />
 
             </Helmet>
