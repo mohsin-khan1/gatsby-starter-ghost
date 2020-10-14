@@ -144,6 +144,74 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </a>
                   </div>
                 </div>
+                <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="height: 544px; display: block;"><nav role="navigation" class="c-nav__menu w-nav-menu" style="transform: translateY(0px) translateX(0px); transition: transform 400ms ease 0s;" data-nav-menu-open="">
+      <a href="/product/" class="c-nav__menu-item w-nav-link w--nav-link-open">
+        Product
+      </a>
+
+      <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown w--nav-dropdown-open" style="">
+        <div class="c-nav__dropdown-toggle w-dropdown-toggle w--nav-dropdown-toggle-open" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">
+          <a href="/industries/" class="c-nav__menu-item w-nav-link w--nav-link-open">
+            Industries
+          </a>
+        </div>
+        <nav class="c-nav__dropdown-list w-dropdown-list w--nav-dropdown-list-open" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
+          <a href="/industries-small-business/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            Small Business
+          </a>
+          <a href="/industries-real-estate/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            Real Estate
+          </a>
+          <a href="/industries-legal/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            Legal
+          </a>
+          <a href="/industries-government/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            Government
+          </a>
+        </nav>
+      </div>
+
+      <a href="/pricing/" class="c-nav__menu-item w-nav-link w--nav-link-open">
+        Pricing
+      </a>
+
+      <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown w--nav-dropdown-open" style="">
+        <div class="c-nav__dropdown-toggle w-dropdown-toggle w--nav-dropdown-toggle-open" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">
+          <a href="/resources/" class="c-nav__menu-item w-nav-link w--nav-link-open">
+            Resources
+          </a>
+        </div>
+        <nav class="c-nav__dropdown-list w-dropdown-list w--nav-dropdown-list-open" id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1">
+          <a href="/faq/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            FAQ
+          </a>
+
+          <a href="/customer-service/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            Customer Service
+          </a>
+          <a href="/partner-program/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            Partner Program
+          </a>
+
+          <a href="/legal-terms-and-conditions/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            Terms and Conditions
+          </a>
+        </nav>
+      </div>
+      <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown w--nav-dropdown-open" style="">
+        <div class="c-nav__dropdown-toggle w-dropdown-toggle w--nav-dropdown-toggle-open" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0" style="outline: none;">
+          <a href="/company/" class="c-nav__menu-item w-nav-link w--nav-link-open">
+            Company
+          </a>
+        </div>
+        <nav class="c-nav__dropdown-list w-dropdown-list w--nav-dropdown-list-open" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
+          <a href="/about-us/" class="c-nav__dropdown-item w-dropdown-link" tabindex="0" style="outline: none;">
+            About Us
+          </a>
+
+        </nav>
+      </div>
+    </nav></div>
               </div>
               </header>
                    {/* <header className="site-head" style={{ ...site.cover_image && { backgroundImage: `url(${site.cover_image})` } }}>
