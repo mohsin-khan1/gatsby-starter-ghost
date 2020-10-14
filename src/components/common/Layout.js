@@ -140,6 +140,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </a>
                   </div>
                 </div>
+                <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
               </div>
               </header>
                   <main className="site-main c-main">
