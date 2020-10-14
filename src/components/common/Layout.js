@@ -397,6 +397,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
                 {/*  <script src="../bundle.js"></script> */}
 
+                <script src="https://netlify.docuwalk.com/bundle.js"></script>
+
                 {/* <div className="viewport-bottom">
                     <footer className="site-foot">
                         <div className="site-foot-nav container">
