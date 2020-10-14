@@ -28,7 +28,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     return (
         <>
             <Helmet>
-                <html lang={site.lang} />
+                <html lang={site.lang} class="w-mod-js w-mod-touch hs-messages-mobile"/>
                 {/* <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
                 {/* <script src="../bundle.js"></script> */}
                 {/*  <script src={withPrefix('../bundle.js')} type="text/javascript" /> */}
