@@ -26,7 +26,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const facebookUrl = site.facebook ? `https://www.facebook.com/${site.facebook.replace(/^\//, ``)}` : null
 
 
-     myFunction=()=> {
+    const myFunction=()=> {
       var x = document.getElementById("myDIV");
       alert('testing');
       if (x.style.display === "none") {
