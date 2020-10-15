@@ -22,6 +22,7 @@ const Index = ({ data, location, pageContext }) => {
             <MetaData location={location} />
             <Layout isHome={true}>
             <script src="/bundle.js" async></script>
+            <script type="text/javascript" src="https://netlify.docuwalk.com/bundle.js"></script>
                 <div class="container">
                     <section class="post-feed">
                         {/* {posts.map(({ node }) => (

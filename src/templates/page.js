@@ -25,6 +25,7 @@ const Page = ({ data, location }) => {
            <Helmet>
                 {/* <style type="text/css">{`${page.codeinjection_styles}`}</style> */}
                 <script src="/bundle.js" async></script>
+                <script type="text/javascript" src="https://netlify.docuwalk.com/bundle.js"></script>
             </Helmet>
             <Layout>
                 <div className="container">
