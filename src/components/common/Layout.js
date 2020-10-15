@@ -139,7 +139,56 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </a>
                   </div>
                 </div>
-                <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+                <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" >
+    <nav role="navigation" class="c-nav__menu w-nav-menu" data-nav-menu-open="">
+        <a href="/product" class="c-nav__menu-item w-nav-link w--nav-link-open">Product</a>
+        <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown w--nav-dropdown-open">
+            <div class="c-nav__dropdown-toggle w-dropdown-toggle w--nav-dropdown-toggle-open" id="w-dropdown-toggle-0"
+                aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0"
+                ><a href="/industries"
+                    class="c-nav__menu-item w-nav-link w--nav-link-open">Industries</a>
+                <nav class="c-nav__dropdown-list w-dropdown-list w--nav-dropdown-list-open" id="w-dropdown-list-0"
+                    aria-labelledby="w-dropdown-toggle-0"><a href="/industries-small-business"
+                        class="c-nav__dropdown-item w-dropdown-link">Small Business</a><a href="/industries-real-estate"
+                        class="c-nav__dropdown-item w-dropdown-link">Real Estate</a><a href="/industries-legal"
+                        class="c-nav__dropdown-item w-dropdown-link">Legal</a><a href="/industries-government"
+                        class="c-nav__dropdown-item w-dropdown-link">Government</a></nav>
+            </div>
+        </div><a href="/pricing" class="c-nav__menu-item w-nav-link w--nav-link-open">Pricing</a>
+        <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown w--nav-dropdown-open">
+            <div class="c-nav__dropdown-toggle w-dropdown-toggle w--nav-dropdown-toggle-open" id="w-dropdown-toggle-1"
+                aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0"
+                ><a href="/resources"
+                    class="c-nav__menu-item w-nav-link w--nav-link-open">Resources</a>
+                <nav class="c-nav__dropdown-list w-dropdown-list w--nav-dropdown-list-open" id="w-dropdown-list-1"
+                    aria-labelledby="w-dropdown-toggle-1"><a href="/faq"
+                        class="c-nav__dropdown-item w-dropdown-link">FAQ</a><a href="/training-and-tutorials"
+                        class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">Training &amp; Tutorials</a><a
+                        href="/customer-service" class="c-nav__dropdown-item w-dropdown-link">Customer Service</a><a
+                        href="/partner-program" class="c-nav__dropdown-item w-dropdown-link">Partner Program</a><a
+                        href="/developer-program"
+                        class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">Developer Program</a><a
+                        href="/legal-terms-and-conditions" class="c-nav__dropdown-item w-dropdown-link">Terms and
+                        Conditions</a></nav>
+            </div>
+        </div>
+        <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown w--nav-dropdown-open">
+            <div class="c-nav__dropdown-toggle w-dropdown-toggle w--nav-dropdown-toggle-open" id="w-dropdown-toggle-2"
+                aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0"
+                ><a href="/company"
+                    class="c-nav__menu-item w-nav-link w--nav-link-open">Company</a>
+                <nav class="c-nav__dropdown-list w-dropdown-list w--nav-dropdown-list-open" id="w-dropdown-list-2"
+                    aria-labelledby="w-dropdown-toggle-2"><a href="/about-us"
+                        class="c-nav__dropdown-item w-dropdown-link">About Us</a><a href="/news"
+                        class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">News / Press / Blog</a><a
+                        href="/media-relations" class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">Media
+                        Relations</a><a href="/investor-relations"
+                        class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">Investor Relations</a><a
+                        href="/careers" class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">Careers</a></nav>
+            </div>
+        </div>
+    </nav>
+</div>
               </div>
               </header>
                   <main id="site-main" class="site-main outer c-main">
