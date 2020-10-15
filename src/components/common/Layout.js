@@ -25,6 +25,16 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const twitterUrl = site.twitter ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}` : null
     const facebookUrl = site.facebook ? `https://www.facebook.com/${site.facebook.replace(/^\//, ``)}` : null
 
+
+     myFunction=()=> {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+
     return (
         <>
             <Helmet>
@@ -41,7 +51,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
               <header class="c-header">
               <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
                 <div class="h-container c-nav__inner">
-                  <div class="c-nav__hamburger-button w-nav-button" onclick="myFunction()">
+                  <div class="c-nav__hamburger-button w-nav-button" onClick={this.myFunction}>
                     <img src={`${config.siteUrl}images/hamburger.svg`} alt="" class="h-svg-icon c-nav__icon--hamburger" />
                     <img src={`${config.siteUrl}images/times.svg`} alt="" class="h-svg-icon c-nav__icon--times" />
                   </div>
