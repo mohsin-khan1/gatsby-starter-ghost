@@ -33,6 +33,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         x.style.display = "block";
       } else { */
         x.style.display = "block";
+        x.style.height = "716px";
      // }
     }
 
