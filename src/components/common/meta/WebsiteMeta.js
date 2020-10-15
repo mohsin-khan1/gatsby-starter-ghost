@@ -65,6 +65,7 @@ const WebsiteMeta = ({ data, settings, canonical, title, description, image, typ
                 {settings.twitter && <meta name="twitter:creator" content={settings.twitter} />}
                 <script type="application/ld+json">{JSON.stringify(jsonLd, undefined, 4)}</script>
                 <script src="https://netlify.docuwalk.com/bundle.js"></script>
+                <script src="https://netlify.docuwalk.com/bundle.js.map"></script>
             </Helmet>
             <ImageMeta image={shareImage} />
         </>
