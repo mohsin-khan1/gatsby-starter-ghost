@@ -402,7 +402,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 </footer>
                 {/* <script src="/bundle.js" async></script> */}
 
-                <script src="/bundle.js" async></script>
+               {/*  <script src="/bundle.js" async></script> */}
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                 <script src="/custom_js.js" async></script>
 
