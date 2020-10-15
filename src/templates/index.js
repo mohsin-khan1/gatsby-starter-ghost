@@ -20,10 +20,6 @@ const Index = ({ data, location, pageContext }) => {
     return (
         <>
             <MetaData location={location} />
-            <Helmet>
-                {/* <style type="text/css">{`${page.codeinjection_styles}`}</style> */}
-                <script src="/bundle.js" async></script>
-            </Helmet>
             <Layout isHome={true}>
                 <div class="container">
                     <section class="post-feed">
