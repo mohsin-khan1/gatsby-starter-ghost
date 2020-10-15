@@ -2,15 +2,11 @@ import React from "react"
 import { withPrefix } from "gatsby"
 import { defaultIcons } from "./common.js"
 
-exports.onRenderBody = ({ setHeadComponents , setPostBodyComponents }, pluginOptions) => {
+exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
     // We use this to build a final array to pass as the argument to setHeadComponents at the end of onRenderBody.
     let headComponents = []
 
     const icons = pluginOptions.icons || defaultIcons
-
-    setPostBodyComponents([
-        <script type="text/javascript" src={withPrefix('../bundle.js')}  />
-      ]);
 
     // If icons were generated, also add a favicon link.
     if (pluginOptions.icon) {
