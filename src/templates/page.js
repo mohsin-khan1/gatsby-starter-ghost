@@ -24,9 +24,9 @@ const Page = ({ data, location }) => {
             />
            <Helmet>
                 {/* <style type="text/css">{`${page.codeinjection_styles}`}</style> */}
-                <script src="/bundle.js" async></script>
             </Helmet>
             <Layout>
+                <script src="/bundle.js" async></script>
                 <div className="container">
                     <article className="content">
                         {/* <h1 className="content-title">{page.title}</h1> */}
