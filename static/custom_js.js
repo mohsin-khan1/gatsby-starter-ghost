@@ -7,3 +7,7 @@ function myFunction() {
       x.style.display = "none";
     }
   }
+
+  $( ".w-nav-button" ).click(function() {
+    alert( "Handler for .click() called." );
+  });
