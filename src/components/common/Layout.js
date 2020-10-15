@@ -142,7 +142,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
               </div>
               </header>
-                  <main class="site-main c-main">
+                  <main id="site-main" class="site-main outer c-main">
                       {/* All the main content gets inserted here, index.js, post.js */}
                       {children}
                   </main>
@@ -352,6 +352,10 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   </div>
                 </footer>
                 {/* <script src="/bundle.js" async></script> */}
+
+               {/*  Start of HubSpot Embed Code  */}
+                <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4639039.js"></script>
+              {/* End of HubSpot Embed Code */}
             </div>
 
         </>
