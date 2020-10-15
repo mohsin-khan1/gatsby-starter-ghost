@@ -27,13 +27,13 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
 
     const myFunction=()=> {
-      var x = document.getElementById("myDIV");
+      var x = document.getElementById("w-nav-overlay-0");
       alert('testing');
-      if (x.style.display === "none") {
+      /* if (x.style.display === "none") {
         x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
+      } else { */
+        x.style.display = "block";
+     // }
     }
 
     return (
@@ -412,12 +412,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   </div>
                 </footer>
                 {/* <script src="/bundle.js" async></script> */}
-
-               {/*  <script src="/bundle.js" async></script> */}
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                <script src="/custom_js.js" async></script>
-
-                   <script>{`${site.codeinjection_foot}`}</script>
+                {/* <script>{`${site.codeinjection_foot}`}</script> */}
 
                {/*  Start of HubSpot Embed Code  */}
                 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4639039.js"></script>
