@@ -31,7 +31,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 <html lang={site.lang} class="w-mod-js w-mod-touch hs-messages-mobile"/>
                 {/* <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
                 {/* {<script src={withPrefix('/bundle.js')} type="text/javascript" />} */}
-                <script type="text/javascript" src="https://netlify.docuwalk.com/bundle.js"></script>
+               {/*  <script type="text/javascript" src="https://netlify.docuwalk.com/bundle.js"></script> */}
                 <body class="l-body"  />
 
             </Helmet>
