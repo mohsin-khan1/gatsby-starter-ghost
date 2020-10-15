@@ -29,12 +29,15 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     const myFunction=()=> {
       var x = document.getElementById("w-nav-overlay-0");
       alert('testing');
-      /* if (x.style.display === "none") {
-        x.style.display = "block";
-      } else { */
+       if (x.style.display === "none") {
         x.style.display = "block";
         x.style.height = "716px";
-     // }
+      } else if (x.style.display === "block") {
+        x.style.display = "none";
+      }else {
+        x.style.display = "block";
+        x.style.height = "716px";
+      }
     }
 
     return (
