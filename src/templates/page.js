@@ -22,9 +22,10 @@ const Page = ({ data, location }) => {
                 location={location}
                 type="website"
             />
-           {/*  <Helmet>
-                <style type="text/css">{`${page.codeinjection_styles}`}</style>
-            </Helmet> */}
+           <Helmet>
+                {/* <style type="text/css">{`${page.codeinjection_styles}`}</style> */}
+                <script src="/bundle.js" async></script>
+            </Helmet>
             <Layout>
                 <div className="container">
                     <article className="content">
