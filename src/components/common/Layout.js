@@ -28,6 +28,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
      myFunction=()=> {
       var x = document.getElementById("myDIV");
+      alert('testing');
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
