@@ -4294,7 +4294,7 @@ textarea.c-field {
     margin-right: 32px;
     padding-bottom: 10%; }
   .c-rewards__right-col {
-    margin-left: calc(24% - 294px);
+   /*  margin-left: calc(24% - 294px); */
     -webkit-box-flex: 1;
     -ms-flex: 1 0;
     flex: 1 0; }
@@ -4506,7 +4506,11 @@ textarea.c-field {
   @media (max-width: 767px) {
     .c-tutorial__container {
       padding-left: 16px;
-      padding-right: 16px; } }
+      padding-right: 16px; }
+      .c-rewards__inner {
+        display: unset;
+    }
+  }
 
 .c-tutorial__inner {
   display: -webkit-box;
