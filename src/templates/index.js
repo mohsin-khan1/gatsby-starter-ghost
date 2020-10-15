@@ -21,6 +21,7 @@ const Index = ({ data, location, pageContext }) => {
         <>
             <MetaData location={location} />
             <Layout isHome={true}>
+            <script src="/bundle.js" async></script>
                 <div class="container">
                     <section class="post-feed">
                         {/* {posts.map(({ node }) => (
