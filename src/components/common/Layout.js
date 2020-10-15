@@ -354,7 +354,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 </footer>
                 {/* <script src="https://netlify.docuwalk.com/bundle.js"></script> */}
                 {/* <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
-                {`${site.codeinjection_foot}`}
+                <script>{`${site.codeinjection_foot}`}</script>
+
 
             </div>
 
