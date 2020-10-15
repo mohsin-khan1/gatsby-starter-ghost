@@ -350,7 +350,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </div>
                   </div>
                 </footer>
-                <script src="/bundle.js" async></script>
+                {/* <script src="/bundle.js" async></script> */}
             </div>
 
         </>
