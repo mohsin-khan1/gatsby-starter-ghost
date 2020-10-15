@@ -41,7 +41,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
               <header class="c-header">
               <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
                 <div class="h-container c-nav__inner">
-                  <div class="c-nav__hamburger-button w-nav-button">
+                  <div class="c-nav__hamburger-button w-nav-button" onclick="myFunction()">
                     <img src={`${config.siteUrl}images/hamburger.svg`} alt="" class="h-svg-icon c-nav__icon--hamburger" />
                     <img src={`${config.siteUrl}images/times.svg`} alt="" class="h-svg-icon c-nav__icon--times" />
                   </div>
@@ -352,6 +352,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                   </div>
                 </footer>
                 {/* <script src="/bundle.js" async></script> */}
+
+                   <script>{`${site.codeinjection_foot}`}</script>
 
                {/*  Start of HubSpot Embed Code  */}
                 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4639039.js"></script>
