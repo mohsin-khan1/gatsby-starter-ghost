@@ -28,7 +28,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
     return (
         <>
             <Helmet>
-                <html lang={site.lang} class="w-mod-js w-mod-touch hs-messages-mobile"/>
+                <html lang={site.lang} className="cw-mod-js w-mod-touch hs-messages-mobile"/>
                 {/* <style type="text/css">{`${site.codeinjection_styles}`}</style> */}
                 {/* <script src="../bundle.js"></script> */}
                 {/*  <script src={withPrefix('../bundle.js')} type="text/javascript" /> */}
@@ -39,108 +39,108 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
 
             <div className="l-body__inner">
                     {/* The main header section on top of the screen */}
-              <header class="c-header">
-              <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="c-nav w-nav">
-                <div class="h-container c-nav__inner">
-                  <div class="c-nav__hamburger-button w-nav-button">
-                    <img src={`${config.siteUrl}images/hamburger.svg`} alt="" class="h-svg-icon c-nav__icon--hamburger" />
-                    <img src={`${config.siteUrl}images/times.svg`} alt="" class="h-svg-icon c-nav__icon--times" />
+              <header className="c-header">
+              <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" className="cc-nav w-nav">
+                <div className="ch-container c-nav__inner">
+                  <div className="cc-nav__hamburger-button w-nav-button">
+                    <img src={`${config.siteUrl}images/hamburger.svg`} alt="" className="ch-svg-icon c-nav__icon--hamburger" />
+                    <img src={`${config.siteUrl}images/times.svg`} alt="" className="ch-svg-icon c-nav__icon--times" />
                   </div>
 
-                  <a href="/" aria-current="page" class="c-nav__logo w-nav-brand _w--current">
-                    <img src={site.logo} alt={site.title} class="image" />
+                  <a href="/" aria-current="page" className="cc-nav__logo w-nav-brand _w--current">
+                    <img src={site.logo} alt={site.title} className="cimage" />
                   </a>
 
-                  <nav role="navigation" class="c-nav__menu w-nav-menu">
-                    <a href="/product" class="c-nav__menu-item w-nav-link">
+                  <nav role="navigation" className="cc-nav__menu w-nav-menu">
+                    <a href="/product" className="cc-nav__menu-item w-nav-link">
                       Product
                     </a>
-                    <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
-                      <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                        <a href="/industries" class="c-nav__menu-item w-nav-link">
+                    <div data-hover="1" data-delay="0" className="cc-nav__dropdown w-dropdown">
+                      <div className="cc-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                        <a href="/industries" className="cc-nav__menu-item w-nav-link">
                           Industries
                         </a>
-                      <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
-                        <a href="/industries-small-business" class="c-nav__dropdown-item w-dropdown-link">
+                      <nav className="cc-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0">
+                        <a href="/industries-small-business" className="cc-nav__dropdown-item w-dropdown-link">
                           Small Business
                         </a>
-                        <a href="/industries-real-estate" class="c-nav__dropdown-item w-dropdown-link">
+                        <a href="/industries-real-estate" className="cc-nav__dropdown-item w-dropdown-link">
                           Real Estate
                         </a>
-                        <a href="/industries-legal" class="c-nav__dropdown-item w-dropdown-link">
+                        <a href="/industries-legal" className="cc-nav__dropdown-item w-dropdown-link">
                           Legal
                         </a>
-                        <a href="/industries-government" class="c-nav__dropdown-item w-dropdown-link">
+                        <a href="/industries-government" className="cc-nav__dropdown-item w-dropdown-link">
                           Government
                         </a>
                       </nav>
                       </div>
                     </div>
-                    <a href="/pricing" class="c-nav__menu-item w-nav-link">
+                    <a href="/pricing" className="cc-nav__menu-item w-nav-link">
                       Pricing
                     </a>
-                    <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
-                      <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                        <a href="/resources" class="c-nav__menu-item w-nav-link">
+                    <div data-hover="1" data-delay="0" className="cc-nav__dropdown w-dropdown">
+                      <div className="cc-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-1" aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                        <a href="/resources" className="cc-nav__menu-item w-nav-link">
                           Resources
                         </a>
-                      <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1">
-                        <a href="/faq" class="c-nav__dropdown-item w-dropdown-link">
+                      <nav className="cc-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1">
+                        <a href="/faq" className="cc-nav__dropdown-item w-dropdown-link">
                           FAQ
                         </a>
-                        <a href="/training-and-tutorials" class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">
+                        <a href="/training-and-tutorials" className="cc-nav__dropdown-item w-dropdown-link h-stage-one--hide">
                           Training & Tutorials
                         </a>
-                        <a href="/customer-service" class="c-nav__dropdown-item w-dropdown-link">
+                        <a href="/customer-service" className="cc-nav__dropdown-item w-dropdown-link">
                           Customer Service
                         </a>
-                        <a href="/partner-program" class="c-nav__dropdown-item w-dropdown-link">
+                        <a href="/partner-program" className="cc-nav__dropdown-item w-dropdown-link">
                           Partner Program
                         </a>
-                        <a href="/developer-program" class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">
+                        <a href="/developer-program" className="cc-nav__dropdown-item w-dropdown-link h-stage-one--hide">
                           Developer Program
                         </a>
-                        <a href="/legal-terms-and-conditions" class="c-nav__dropdown-item w-dropdown-link">
+                        <a href="/legal-terms-and-conditions" className="cc-nav__dropdown-item w-dropdown-link">
                           Terms and Conditions
                         </a>
                       </nav>
                       </div>
                     </div>
-                    <div data-hover="1" data-delay="0" class="c-nav__dropdown w-dropdown">
-                      <div class="c-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
-                        <a href="/company" class="c-nav__menu-item w-nav-link">
+                    <div data-hover="1" data-delay="0" className="cc-nav__dropdown w-dropdown">
+                      <div className="cc-nav__dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-2" aria-controls="w-dropdown-list-2" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+                        <a href="/company" className="cc-nav__menu-item w-nav-link">
                           Company
                         </a>
-                      <nav class="c-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
-                        <a href="/about-us" class="c-nav__dropdown-item w-dropdown-link">
+                      <nav className="cc-nav__dropdown-list w-dropdown-list" id="w-dropdown-list-2" aria-labelledby="w-dropdown-toggle-2">
+                        <a href="/about-us" className="cc-nav__dropdown-item w-dropdown-link">
                           About Us
                         </a>
-                        <a href="/news" class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">
+                        <a href="/news" className="cc-nav__dropdown-item w-dropdown-link h-stage-one--hide">
                           News / Press / Blog
                         </a>
-                        <a href="/media-relations" class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">
+                        <a href="/media-relations" className="cc-nav__dropdown-item w-dropdown-link h-stage-one--hide">
                           Media Relations
                         </a>
-                        <a href="/investor-relations" class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">
+                        <a href="/investor-relations" className="cc-nav__dropdown-item w-dropdown-link h-stage-one--hide">
                           Investor Relations
                         </a>
-                        <a href="/careers" class="c-nav__dropdown-item w-dropdown-link h-stage-one--hide">
+                        <a href="/careers" className="cc-nav__dropdown-item w-dropdown-link h-stage-one--hide">
                           Careers
                         </a>
                       </nav>
                       </div>
                     </div>
                   </nav>
-                  <div class="c-nav__buttons">
-                    <a href="//app.docuwalk.com/login" class="c-nav__button c-nav__sign-in-button w-button">
+                  <div className="cc-nav__buttons">
+                    <a href="//app.docuwalk.com/login" className="cc-nav__button c-nav__sign-in-button w-button">
                       Sign In
                     </a>
-                    <a href="/pricing#plans" class="c-nav__button c-nav__sign-up-button w-button">
+                    <a href="/pricing#plans" className="cc-nav__button c-nav__sign-up-button w-button">
                     Get Started
                     </a>
                   </div>
                 </div>
-                <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+                <div className="cw-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
               </div>
               </header>
                   <main className="site-main c-main">
@@ -148,20 +148,20 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                       {children}
                   </main>
 
-                <footer class="c-footer">
-                  <div class="c-footer__body">
-                    <div class="c-footer__body-inner h-container">
-                      <div class="c-footer__contacts">
-                        <div class="c-footer-contacts">
-                          <div class="c-footer-contacts__row">
-                            <div class="c-footer-contacts__brand">
-                              <a href={`${config.siteUrl}`} class="c-footer-contacts__brand-link w-inline-block">
-                                <img src={`${config.siteUrl}images/docuwalk-logo.svg`} alt="" class="image" />
+                <footer className="cc-footer">
+                  <div className="cc-footer__body">
+                    <div className="cc-footer__body-inner h-container">
+                      <div className="cc-footer__contacts">
+                        <div className="cc-footer-contacts">
+                          <div className="cc-footer-contacts__row">
+                            <div className="cc-footer-contacts__brand">
+                              <a href={`${config.siteUrl}`} className="cc-footer-contacts__brand-link w-inline-block">
+                                <img src={`${config.siteUrl}images/docuwalk-logo.svg`} alt="" className="cimage" />
                               </a>
                             </div>
                           </div>
-                            <div class="c-footer-contacts__row">
-                              <p class="c-footer-contacts__address">
+                            <div className="cc-footer-contacts__row">
+                              <p className="cc-footer-contacts__address">
                                 14 Wall Street, 20th Floor, <br/>
                                 NY, New York, 10005 <br/>
                               </p>
@@ -169,130 +169,130 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         </div>
                       </div>
 
-                      <nav class="c-footer__nav">
-                        <div class="c-footer__nav-section">
-                          <div class="c-footer-nav">
-                            <h3 class="c-footer-nav__header">DocuWalk</h3>
-                            <div class="c-footer-nav__list">
-                              <a href="/product" class="c-footer-nav__item w-inline-block">
+                      <nav className="cc-footer__nav">
+                        <div className="cc-footer__nav-section">
+                          <div className="cc-footer-nav">
+                            <h3 className="cc-footer-nav__header">DocuWalk</h3>
+                            <div className="cc-footer-nav__list">
+                              <a href="/product" className="cc-footer-nav__item w-inline-block">
                                 <div>What Is Docuwalk</div>
                               </a>
-                              <a href="/product" class="c-footer-nav__item w-inline-block">
+                              <a href="/product" className="cc-footer-nav__item w-inline-block">
                                 <div>How it Works</div>
                               </a>
-                              <a href="/product" class="c-footer-nav__item w-inline-block">
+                              <a href="/product" className="cc-footer-nav__item w-inline-block">
                                 <div>New Features</div>
                               </a>
-                              <a href="//app.docuwalk.com/login" class="c-footer-nav__item w-inline-block">
+                              <a href="//app.docuwalk.com/login" className="cc-footer-nav__item w-inline-block">
                                 <div>Sign In</div>
                               </a>
-                              <a href="/pricing#plans" class="c-footer-nav__item w-inline-block">
+                              <a href="/pricing#plans" className="cc-footer-nav__item w-inline-block">
                                 <div>Sign Up</div>
                               </a>
                             </div>
                           </div>
                         </div>
 
-                        <div class="c-footer__nav-section">
-                          <div class="c-footer-nav">
-                            <h3 class="c-footer-nav__header">Industries</h3>
-                            <div class="c-footer-nav__list">
-                              <a href="/industries-real-estate" class="c-footer-nav__item w-inline-block">
+                        <div className="cc-footer__nav-section">
+                          <div className="cc-footer-nav">
+                            <h3 className="cc-footer-nav__header">Industries</h3>
+                            <div className="cc-footer-nav__list">
+                              <a href="/industries-real-estate" className="cc-footer-nav__item w-inline-block">
                                 <div>Real Estate</div>
                               </a>
-                              <a href="/industries-small-business" class="c-footer-nav__item w-inline-block">
+                              <a href="/industries-small-business" className="cc-footer-nav__item w-inline-block">
                                 <div>Small Business</div>
                               </a>
-                              <a href="/industries-legal" class="c-footer-nav__item w-inline-block">
+                              <a href="/industries-legal" className="cc-footer-nav__item w-inline-block">
                                 <div>Legal</div>
                               </a>
-                              <a href="/industries-government" class="c-footer-nav__item w-inline-block">
+                              <a href="/industries-government" className="cc-footer-nav__item w-inline-block">
                                 <div>Government</div>
                               </a>
                             </div>
                           </div>
                         </div>
 
-                        <div class="c-footer__nav-section">
-                          <div class="c-footer-nav">
-                            <h3 class="c-footer-nav__header">Resources</h3>
-                            <div class="c-footer-nav__list">
-                              <a href="/faq" class="c-footer-nav__item w-inline-block">
+                        <div className="cc-footer__nav-section">
+                          <div className="cc-footer-nav">
+                            <h3 className="cc-footer-nav__header">Resources</h3>
+                            <div className="cc-footer-nav__list">
+                              <a href="/faq" className="cc-footer-nav__item w-inline-block">
                                 <div>FAQ</div>
                               </a>
-                              <a href="/customer-service" class="c-footer-nav__item w-inline-block">
+                              <a href="/customer-service" className="cc-footer-nav__item w-inline-block">
                                 <div>Customer Service</div>
                               </a>
-                              <a href="/partner-program" class="c-footer-nav__item w-inline-block">
+                              <a href="/partner-program" className="cc-footer-nav__item w-inline-block">
                                 <div>Get Certified</div>
                               </a>
-                              <a href="/partner-program" class="c-footer-nav__item w-inline-block">
+                              <a href="/partner-program" className="cc-footer-nav__item w-inline-block">
                                 <div>Partners</div>
                               </a>
                             </div>
                           </div>
                         </div>
 
-                        <div class="c-footer__nav-section">
-                          <div class="c-footer-nav">
-                            <h3 class="c-footer-nav__header">Pricing</h3>
-                            <div class="c-footer-nav__list">
-                              <a href="/pricing#basic" class="c-footer-nav__item w-inline-block">
+                        <div className="cc-footer__nav-section">
+                          <div className="cc-footer-nav">
+                            <h3 className="cc-footer-nav__header">Pricing</h3>
+                            <div className="cc-footer-nav__list">
+                              <a href="/pricing#basic" className="cc-footer-nav__item w-inline-block">
                                 <div>Basic</div>
                               </a>
-                              <a href="/pricing#premium" class="c-footer-nav__item w-inline-block">
+                              <a href="/pricing#premium" className="cc-footer-nav__item w-inline-block">
                                 <div>Premium</div>
                               </a>
-                              <a href="/pricing#teams" class="c-footer-nav__item w-inline-block">
+                              <a href="/pricing#teams" className="cc-footer-nav__item w-inline-block">
                                 <div>Teams</div>
                               </a>
-                              <a href="/pricing#enterprise" class="c-footer-nav__item w-inline-block">
+                              <a href="/pricing#enterprise" className="cc-footer-nav__item w-inline-block">
                                 <div>Enterprise</div>
                               </a>
-                              <a href="/pricing#try" class="c-footer-nav__item w-inline-block">
+                              <a href="/pricing#try" className="cc-footer-nav__item w-inline-block">
                                 <div>Try for Free</div>
                               </a>
-                              <a href="/pricing#comparison-table" class="c-footer-nav__item w-inline-block">
+                              <a href="/pricing#comparison-table" className="cc-footer-nav__item w-inline-block">
                                 <div>Compare Features</div>
                               </a>
                             </div>
                           </div>
                         </div>
 
-                        <div class="c-footer__nav-section ">
-                          <div class="c-footer-nav">
-                            <h3 class="c-footer-nav__header">Company</h3>
-                            <div class="c-footer-nav__list">
-                              <a href="/about-us" class="c-footer-nav__item w-inline-block">
+                        <div className="cc-footer__nav-section ">
+                          <div className="cc-footer-nav">
+                            <h3 className="cc-footer-nav__header">Company</h3>
+                            <div className="cc-footer-nav__list">
+                              <a href="/about-us" className="cc-footer-nav__item w-inline-block">
                                 <div>About Us</div>
                               </a>
-                              <a href="/news" class="c-footer-nav__item w-inline-block h-stage-one--hide">
+                              <a href="/news" className="cc-footer-nav__item w-inline-block h-stage-one--hide">
                                 <div>News / Press</div>
                               </a>
-                              <a href="/investor-relations" class="c-footer-nav__item w-inline-block h-stage-one--hide">
+                              <a href="/investor-relations" className="cc-footer-nav__item w-inline-block h-stage-one--hide">
                                 <div>Investor Relations</div>
                               </a>
-                              <a href="/media-relations" class="c-footer-nav__item w-inline-block h-stage-one--hide">
+                              <a href="/media-relations" className="cc-footer-nav__item w-inline-block h-stage-one--hide">
                                 <div>Media Kit</div>
                               </a>
-                              <a href="/careers" class="c-footer-nav__item w-inline-block h-stage-one--hide">
+                              <a href="/careers" className="cc-footer-nav__item w-inline-block h-stage-one--hide">
                                 <div>Careers</div>
                               </a>
-                              <a href="/legal-privacy-policy-and-prominent-disclosures" class="c-footer-nav__item w-inline-block">
+                              <a href="/legal-privacy-policy-and-prominent-disclosures" className="cc-footer-nav__item w-inline-block">
                                 <div>Privacy</div>
                               </a>
                             </div>
                           </div>
                         </div>
 
-                        <div class="c-footer__nav-section">
-                          <div class="c-footer-nav">
-                            <h3 class="c-footer-nav__header">Legal</h3>
-                            <div class="c-footer-nav__list">
-                              <a href="/legal-terms-and-conditions" class="c-footer-nav__item w-inline-block">
+                        <div className="cc-footer__nav-section">
+                          <div className="cc-footer-nav">
+                            <h3 className="cc-footer-nav__header">Legal</h3>
+                            <div className="cc-footer-nav__list">
+                              <a href="/legal-terms-and-conditions" className="cc-footer-nav__item w-inline-block">
                                 <div>Terms and Conditions</div>
                               </a>
-                              <a href="/legal-privacy-policy-and-prominent-disclosures" class="c-footer-nav__item w-inline-block">
+                              <a href="/legal-privacy-policy-and-prominent-disclosures" className="cc-footer-nav__item w-inline-block">
                                 <div>Privacy Policy and Prominent Disclosures</div>
                               </a>
                             </div>
@@ -300,25 +300,25 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         </div>
                       </nav>
 
-                      <div class="c-footer__subscription">
-                        <section id="subscribe-form" class="c-footer-subscribe-form">
-                          <div class="c-footer-subscribe-form__centered-container w-container">
-                            <h2 class="c-footer-subscribe-form__header">Sign up for our email</h2>
-                            <p class="c-footer-subscribe-form__text">From time to time we reach out to let you know of new features and exciting news.</p>
-                            <div class="c-footer-subscribe-form__form-block w-form">
-                              <form id="email-form" name="subscribe" data-name="subscribe" method="post" action="//identity.docuwalk.com/api/leads/new" class="c-footer-subscribe-form__flex">
-                                <div class="c-footer-subscribe-form__input-wrapper">
-                                  <input type="email" class="c-field c-footer-subscribe-form__input w-input" maxlength="70" name="email" data-name="email" placeholder="Email" required="" />
+                      <div className="cc-footer__subscription">
+                        <section id="subscribe-form" className="cc-footer-subscribe-form">
+                          <div className="cc-footer-subscribe-form__centered-container w-container">
+                            <h2 className="cc-footer-subscribe-form__header">Sign up for our email</h2>
+                            <p className="cc-footer-subscribe-form__text">From time to time we reach out to let you know of new features and exciting news.</p>
+                            <div className="cc-footer-subscribe-form__form-block w-form">
+                              <form id="email-form" name="subscribe" data-name="subscribe" method="post" action="//identity.docuwalk.com/api/leads/new" className="cc-footer-subscribe-form__flex">
+                                <div className="cc-footer-subscribe-form__input-wrapper">
+                                  <input type="email" className="cc-field c-footer-subscribe-form__input w-input" maxlength="70" name="email" data-name="email" placeholder="Email" required="" />
                                 </div>
-                                <input type="submit" value="Subscribe" data-wait="Please wait..." class="c-button c-footer-subscribe-form__button c-button--light-blue w-button" />
-                                <div class="h-hide w-embed">
+                                <input type="submit" value="Subscribe" data-wait="Please wait..." className="cc-button c-footer-subscribe-form__button c-button--light-blue w-button" />
+                                <div className="ch-hide w-embed">
                                   <input type="text" value="subscribe" maxlength="20" name="formName" required readonly hidden/>
                                 </div>
                               </form>
-                              <div class="w-form-done">
+                              <div className="cw-form-done">
                                 <div>Thank you! Your submission has been received!</div>
                               </div>
-                              <div class="w-form-fail">
+                              <div className="cw-form-fail">
                                 <div>Oops! Something went wrong while submitting the form.</div>
                               </div>
                             </div>
@@ -329,30 +329,30 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </div>
                   </div>
 
-                  <div class="c-footer__botton">
-                    <div class="h-container c-footer__bottom-inner">
-                    <div class="c-footer__copywrite">
-                      <div class="text-block">© Copyright 2020. All Right Reserved</div>
+                  <div className="cc-footer__botton">
+                    <div className="ch-container c-footer__bottom-inner">
+                    <div className="cc-footer__copywrite">
+                      <div className="ctext-block">© Copyright 2020. All Right Reserved</div>
                     </div>
 
-                    <nav class="c-footer__social">
-                      <a href="//www.facebook.com/DocuWalk-103887751350709/" target="_blank" class="c-footer__social-link w-inline-block">
-                        <img src={`${config.siteUrl}images/social-facebook_color.svg`} alt="" class="h-svg-icon" />
+                    <nav className="cc-footer__social">
+                      <a href="//www.facebook.com/DocuWalk-103887751350709/" target="_blank" className="cc-footer__social-link w-inline-block">
+                        <img src={`${config.siteUrl}images/social-facebook_color.svg`} alt="" className="ch-svg-icon" />
                       </a>
-                      <a href="//twitter.com/docuwalk" target="_blank" class="c-footer__social-link w-inline-block">
-                        <img src={`${config.siteUrl}images/social-twitter_color.svg`} alt="" class="h-svg-icon" />
+                      <a href="//twitter.com/docuwalk" target="_blank" className="cc-footer__social-link w-inline-block">
+                        <img src={`${config.siteUrl}images/social-twitter_color.svg`} alt="" className="ch-svg-icon" />
                       </a>
-                      <a href="//www.instagram.com/docuwalk" target="_blank" class="c-footer__social-link w-inline-block">
-                        <img src={`${config.siteUrl}images/social-instagram_color.svg`} alt="" class="h-svg-icon" />
+                      <a href="//www.instagram.com/docuwalk" target="_blank" className="cc-footer__social-link w-inline-block">
+                        <img src={`${config.siteUrl}images/social-instagram_color.svg`} alt="" className="ch-svg-icon" />
                       </a>
-                      <a href="//www.linkedin.com/company/docuwalk" target="_blank" class="c-footer__social-link w-inline-block">
-                        <img src={`${config.siteUrl}images/social-linkedin_color.svg`} alt="" class="h-svg-icon" />
+                      <a href="//www.linkedin.com/company/docuwalk" target="_blank" className="cc-footer__social-link w-inline-block">
+                        <img src={`${config.siteUrl}images/social-linkedin_color.svg`} alt="" className="ch-svg-icon" />
                       </a>
                     </nav>
                     </div>
                   </div>
                 </footer>
-                <script src="https://netlify.docuwalk.com/bundle.js"></script>
+               {/*  <script src="https://netlify.docuwalk.com/bundle.js"></script> */}
             </div>
 
         </>
