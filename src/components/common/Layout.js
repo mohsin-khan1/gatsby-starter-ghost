@@ -353,7 +353,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                 </footer>
                 {/* <script src="/bundle.js" async></script> */}
 
-                <script src="/custom_js.js" async></script>
+                <script src="/bundle.js" async></script>
 
                    <script>{`${site.codeinjection_foot}`}</script>
 

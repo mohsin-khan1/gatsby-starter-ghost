@@ -9,11 +9,5 @@ function myFunction() {
   }
 
   $( ".w-nav-button" ).click(function() {
-      alert('here nav');
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
+    alert( "Handler for .click() called." );
   });
