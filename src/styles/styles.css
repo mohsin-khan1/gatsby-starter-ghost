@@ -7960,6 +7960,10 @@ textarea.c-field {
         margin-left: 0;
     }
 
+    .c-contact-us .c-contact+.c-contact {
+        margin-left: 0;
+    }
+
     .c-pr__downloads{
         min-width: auto;
         display: block;
