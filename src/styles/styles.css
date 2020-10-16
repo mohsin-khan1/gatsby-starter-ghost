@@ -5327,6 +5327,12 @@ textarea.c-field {
         padding-left: 2%;
         padding-right: 4%;
     }
+    .c-co-founders__inner{
+        display: block;
+    }
+    .c-co-founders__person {
+        padding-right: 5%;
+    }
 }
 
 @media (max-width: 767px) {
@@ -5336,6 +5342,9 @@ textarea.c-field {
         padding-left: 0;
         padding-right: 0;
         width: auto;
+    }
+    .c-co-founders__persons {
+        width: 100%;
     }
 }
 
