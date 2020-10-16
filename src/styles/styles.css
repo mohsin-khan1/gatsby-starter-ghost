@@ -8484,8 +8484,9 @@ textarea.c-field {
     .c-contact__title {
         margin-top: 20px;
     }
-    .c-get-in-touch__contacts {
+    .c-get-in-touch__content {
         width: 100%;
+        display: inline-block;
     }
     .c-get-in-touch__form {
         width: 100%;
@@ -9157,6 +9158,29 @@ textarea.c-field {
 }
 
 @media screen and (max-width: 479px) {
+    .c-communication__title {
+        font-size: 28px;
+    }
+    .c-co-founders__person {
+        display: block;
+        padding: 0px;
+    }
+    .c-co-founders__person--image {
+        margin: 0 auto;
+    }
+    .c-co-founders__person--quote {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .c-co-founders__person--position{
+        text-align: center;
+    }
+    .c-co-founders__person--name {
+        text-align: center;
+    }
+    .c-co-founders__person {
+        padding-bottom: 40px;
+    }
     .w-nav[data-collapse="tiny"] .w-nav-menu {
         display: none;
     }
