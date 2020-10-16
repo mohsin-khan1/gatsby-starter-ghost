@@ -9158,6 +9158,30 @@ textarea.c-field {
 }
 
 @media screen and (max-width: 479px) {
+    .c-work__inner {
+        text-align: center;
+    }
+    .c-work--about-us .c-work__title {
+        font-size: 34px;
+    }
+    .c-newsletter__body {
+        margin: 20px 0px 0px 0px;
+        text-align: center;
+    }
+    .c-co-founders__company {
+        text-align: center;
+        margin-left: 0px;
+    }
+    .c-co-founders__text {
+        text-align: center;
+        font-size: 18px;
+    }
+    .c-co-founders__name {
+        text-align: center;
+    }
+    .c-get-in-touch__container {
+        text-align: center;
+    }
     .c-communication__title {
         font-size: 28px;
     }
