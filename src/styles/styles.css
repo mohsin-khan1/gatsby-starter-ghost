@@ -7944,12 +7944,21 @@ textarea.c-field {
     }
 
     .c-newsletter__inner, .c-press__inner, .c-subscribe__inner, .c-contact-us__inner,
-     .c-contact-us__address, .c-contact-us__body, .c-press__header, .c-pr__inner  {
+    .c-contact-us__address, .c-contact-us__body, .c-press__header, .c-pr__inner, .c-investor__header   {
         display: block;
+    }
+
+    .c-investor__direction{
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .c-pr__form{
         margin-left: 0;
+    }
+
+    .c-peak__title{
+        font-size: 38px;
     }
 
     .c-peak__body{
