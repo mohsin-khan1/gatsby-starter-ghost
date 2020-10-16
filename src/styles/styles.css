@@ -7943,7 +7943,7 @@ textarea.c-field {
         width: 100%;
     }
 
-    .c-newsletter__inner {
+    .c-newsletter__inner, .c-press__inner, .c-subscribe__inner, .c-contact-us__inner  {
         display: block;
     }
 
