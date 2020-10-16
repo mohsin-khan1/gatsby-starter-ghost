@@ -7939,27 +7939,32 @@ textarea.c-field {
         display: inline-block;
     }
 
-    .c-co-founders__persons {
+    .c-co-founders__persons, .c-subscribe__body, .c-get-in-touch__contacts, .c-peak__body, .c-get-in-touch__form {
         width: 100%;
     }
 
-    .c-newsletter__inner, .c-press__inner, .c-subscribe__inner, .c-contact-us__inner  {
+    .c-newsletter__inner, .c-press__inner, .c-subscribe__inner, .c-contact-us__inner,
+     .c-contact-us__address, .c-contact-us__body, .c-press__header, .c-pr__inner  {
         display: block;
     }
 
-    .c-get-in-touch__contacts {
+    .c-pr__form{
+        margin-left: 0;
+    }
+
+    .c-peak__body{
+        padding-bottom: 30px;
+    }
+
+    .c-contact-us__form{
         width: 100%;
+        margin-left: 0;
     }
 
     .c-get-in-touch__content {
         width: 100%;
         display: inline-block;
     }
-
-    .c-get-in-touch__form {
-        width: 100%;
-    }
-
     .c-partner__title {
         font-size: 22px;
     }
