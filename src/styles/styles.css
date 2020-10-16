@@ -973,12 +973,12 @@ button,
     padding-right: calc(24% - 294px);
 }
 
-.c-pr--company .c-pr__inner>* {
+.c-pr--company .c-pr__inner {
     margin-left: 4%;
     margin-left: calc(24% - 250px);
 }
 
-.c-pr--company .c-pr__inner>*:first-child {
+.c-pr--company .c-pr__inner:first-child {
     margin-left: 0;
 }
 
@@ -7955,7 +7955,7 @@ textarea.c-field {
         margin-bottom: 20px;
     }
 
-    .c-pr__form, .c-pr__downloads, .c-pr__form, .c-contact-us__address {
+    .c-pr__form, .c-pr__downloads, .c-pr__form, .c-contact-us__address, .c-pr__inner {
         margin-left: 0;
     }
 
