@@ -5896,6 +5896,13 @@ textarea.c-field {
     .c-rewards__inner {
         display: unset;
     }
+    .c-docuwalk__title, .c-docuwalk__content {
+        padding: 0 35px;
+    }
+
+    .c-docuwalk__title {
+        font-size: 34px;
+    }
 }
 
 .c-tutorial__inner {
