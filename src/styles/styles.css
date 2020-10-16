@@ -7953,10 +7953,16 @@ textarea.c-field {
         display: block;
         width: 100%;
         margin-bottom: 20px;
+        margin-right: 0;
     }
 
     .c-pr__form, .c-pr__downloads, .c-pr__form, .c-contact-us__address, .c-pr__inner {
         margin-left: 0;
+    }
+
+    .c-pr__downloads{
+        min-width: auto;
+        display: block;
     }
 
     .c-peak__title{
