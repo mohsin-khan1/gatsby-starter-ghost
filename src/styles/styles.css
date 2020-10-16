@@ -7934,6 +7934,19 @@ textarea.c-field {
 }
 
 @media screen and (max-width: 991px) {
+    .c-newsletter__inner {
+        display: block;
+    }
+    .c-get-in-touch__contacts {
+        width: 100%;
+    }
+    .c-get-in-touch__content {
+        width: 100%;
+        display: inline-block;
+    }
+    .c-get-in-touch__form {
+        width: 100%;
+    }
     .c-partner__title {
         font-size: 22px;
     }
@@ -8469,9 +8482,6 @@ textarea.c-field {
 }
 
 @media screen and (max-width: 767px) {
-    .c-newsletter__inner {
-        display: block;
-    }
     .c-newsletter__body {
         width: 100%;
     }
@@ -8483,16 +8493,6 @@ textarea.c-field {
     }
     .c-contact__title {
         margin-top: 20px;
-    }
-    .c-get-in-touch__content {
-        width: 100%;
-        display: inline-block;
-    }
-    .c-get-in-touch__form {
-        width: 100%;
-    }
-    .c-get-in-touch__contacts {
-        width: 100%;
     }
     .c-contact__inner {
         padding-bottom: 20px;
