@@ -7955,7 +7955,7 @@ textarea.c-field {
         margin-bottom: 20px;
     }
 
-    .c-pr__form{
+    .c-pr__form, .c-pr__downloads, .c-pr__form {
         margin-left: 0;
     }
 
