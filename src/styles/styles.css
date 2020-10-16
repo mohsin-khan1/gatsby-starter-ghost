@@ -7251,9 +7251,8 @@ textarea.c-field {
 }
 
 
-
-
 /*--=== MEDIA QUERY CSS ===--*/
+
 @media screen and (min-width: 1920px) {
     .c-nav__button.c-nav__sign-in-button:hover {
         border-color: #637788;
@@ -7268,6 +7267,7 @@ textarea.c-field {
     .c-nav__dropdown.h-temp {
         display: none;
     }
+
     .c-footer__body {
         padding-top: 56px;
     }
@@ -7451,6 +7451,7 @@ textarea.c-field {
         -ms-grid-column-span: 2;
         grid-area: 4 / 5 / 7 / 7;
     }
+
     :root .c-footer__bottom-inner {
         padding-top: 16px;
         padding-bottom: 16px;
@@ -7934,19 +7935,31 @@ textarea.c-field {
 }
 
 @media screen and (max-width: 991px) {
+    .c-get-in-touch__inner {
+        display: inline-block;
+    }
+
+    .c-co-founders__persons {
+        width: 100%;
+    }
+
     .c-newsletter__inner {
         display: block;
     }
+
     .c-get-in-touch__contacts {
         width: 100%;
     }
+
     .c-get-in-touch__content {
         width: 100%;
         display: inline-block;
     }
+
     .c-get-in-touch__form {
         width: 100%;
     }
+
     .c-partner__title {
         font-size: 22px;
     }
@@ -8333,6 +8346,7 @@ textarea.c-field {
         width: 28px;
         height: 28px;
     }
+
     .c-nav__logo {
         position: absolute;
         left: 50%;
@@ -8421,6 +8435,7 @@ textarea.c-field {
         padding-top: 2px;
         padding-bottom: 2px;
     }
+
     .c-btn {
         min-width: 126px;
     }
@@ -8485,18 +8500,23 @@ textarea.c-field {
     .c-newsletter__body {
         width: 100%;
     }
+
     .c-newsletter__image {
         margin: 0px;
     }
+
     .c-work__body {
         width: 100%;
     }
+
     .c-contact__title {
         margin-top: 20px;
     }
+
     .c-contact__inner {
         padding-bottom: 20px;
     }
+
     .w-nav[data-collapse="small"] .w-nav-menu {
         display: none;
     }
@@ -8537,6 +8557,7 @@ textarea.c-field {
         margin-left: 8px;
         font-size: 10px;
     }
+
     .l-main--simple {
         padding-top: 16px;
         padding-bottom: 16px;
@@ -8893,10 +8914,6 @@ textarea.c-field {
         width: auto;
     }
 
-    .c-co-founders__persons {
-        width: 100%;
-    }
-
     .c-tutorial__container {
         padding-left: 16px;
         padding-right: 16px;
@@ -9120,6 +9137,7 @@ textarea.c-field {
     .c-development__body {
         width: auto;
     }
+
     .c-communication__image {
         display: none;
     }
@@ -9152,59 +9170,70 @@ textarea.c-field {
         padding-right: 0px;
         padding-left: 0px;
     }
-    .c-get-in-touch__inner {
-        display: inline-block;
-    }
 }
 
 @media screen and (max-width: 479px) {
     .c-work__inner {
         text-align: center;
     }
+
     .c-work--about-us .c-work__title {
         font-size: 34px;
     }
+
     .c-newsletter__body {
         margin: 20px 0px 0px 0px;
         text-align: center;
     }
+
     .c-co-founders__company {
         text-align: center;
         margin-left: 0px;
     }
+
     .c-co-founders__text {
         text-align: center;
         font-size: 18px;
     }
+
     .c-co-founders__name {
         text-align: center;
     }
+
     .c-get-in-touch__container {
         text-align: center;
     }
+
     .c-communication__title {
         font-size: 28px;
     }
+
     .c-co-founders__person {
         display: block;
         padding: 0px;
     }
+
     .c-co-founders__person--image {
         margin: 0 auto;
     }
+
     .c-co-founders__person--quote {
         text-align: center;
         padding-top: 20px;
     }
-    .c-co-founders__person--position{
+
+    .c-co-founders__person--position {
         text-align: center;
     }
+
     .c-co-founders__person--name {
         text-align: center;
     }
+
     .c-co-founders__person {
         padding-bottom: 40px;
     }
+
     .w-nav[data-collapse="tiny"] .w-nav-menu {
         display: none;
     }
@@ -9229,6 +9258,7 @@ textarea.c-field {
     .c-nav__dropdown-item:visited {
         color: #2e4354;
     }
+
     .c-faq__title {
         font-size: 16px;
     }
@@ -9666,6 +9696,7 @@ textarea.c-field {
     .c-development__feature--text {
         font-size: 14px;
     }
+
     .c-footer__contacts {
         margin-right: auto;
         margin-bottom: 24px;
